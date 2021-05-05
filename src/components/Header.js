@@ -6,8 +6,8 @@ export default function Header() {
     <header className="Header">
     <nav className="Nav">
     <a href="/">Home</a>
-    <a href="/">About Me</a>
-    <a href="/">Contact</a>
+    <a href="/about">About Me</a>
+    <a href="/contact">Contact</a>
     </nav>
     </header>
   );

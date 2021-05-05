@@ -16,6 +16,6 @@ code {
   width: 150px;
      height: 150px;
      object-fit: cover;
-     border: 2px solid rgba(0, 0, 0, 0.5);
+     border: 2px solid rgba(255, 255, 255, 1);
      border-radius: 50%;
 }

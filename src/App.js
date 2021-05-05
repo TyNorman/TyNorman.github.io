@@ -1,34 +1,27 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect
+} from "react-router-dom";
+
 import './App.css';
 import Header from './components/Header';
 import profilePic from './assets/aboutme.jpg';
+import Main from './pages/Main';
+import About from './pages/About';
 
-function App() {
-  return (
-    <div className="App">
-    <Header/>
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
-
-        <div class="profile-icon">
-                <img src={profilePic} />
-        </div>
-
-        <h1>Hello World!</h1>
-        <p>
-          Bing bong I'm slowly making a website here
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+       <Route exact path="/" component={Main} />
+       <Route exact path="/about" component={About} />
+      </Router>
+    );
+  }
 }
 
 export default App;
