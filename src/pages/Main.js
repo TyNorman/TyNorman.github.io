@@ -1,15 +1,17 @@
 import logo from '../logo.svg';
 import './Main.css';
 import Header from '../components/Header';
+import GameDisplay from '../components/GameDisplay';
 import profilePic from '../assets/aboutme.jpg';
+import cursedSeasons from '../assets/Twitter1.jpg'
+import islandpopphoto from '../assets/Itch_Preview8.png'
 
 function Main() {
   return (
     <div className="App">
-    <Header/>
+      <Header/>
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
-
         <div class="profile-icon">
                 <img src={profilePic} />
         </div>
@@ -18,14 +20,9 @@ function Main() {
         <p>
           Bing bong I'm slowly making a website here
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <GameDisplay name="Cursed Seasons" icon={cursedSeasons}/>
+        <GameDisplay name="IslandPop Photo" icon={islandpopphoto} />
       </header>
     </div>
   );
