@@ -14,9 +14,20 @@
   margin-bottom: 4px;
 }
 
+
 img {
   width: 250px;
   height: 250px;
   object-fit: cover;
   border: 2px solid rgba(255, 255, 255, 1);
+}
+
+h2 {
+  font-size: 16px;
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+  borderStyle: 'dotted';
+  borderWidth: 1;
+  borderRadius: 1;
 }
