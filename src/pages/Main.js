@@ -29,35 +29,35 @@ function Main() {
 
         <div className="Games-grid">
           <div className="Games-entry">
-            <GameDisplay name="Cursed Seasons" icon={cursedSeasons}/>
+            <GameDisplay name="Cursed Seasons" icon={cursedSeasons} url={'/cursedseasons'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="Errands '99" icon={errands99}/>
+            <GameDisplay name="Errands '99" icon={errands99} url={'/errands99'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="IslandPop Photo" icon={islandpopphoto}/>
+            <GameDisplay name="IslandPop Photo" icon={islandpopphoto} url={'/islandpopphoto'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="Pizza Squid" icon={pizzaSquid}/>
+            <GameDisplay name="Pizza Squid" icon={pizzaSquid} url={'/pizzasquid'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="Endless World Driver" icon={endlessWorldDriver}/>
+            <GameDisplay name="Endless World Driver" icon={endlessWorldDriver} url={'/endlessworlddriver'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="Relentless" icon={relentless}/>
+            <GameDisplay name="Relentless" icon={relentless} url={'/relentless'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="BotCrash" icon={botCrash}/>
+            <GameDisplay name="BotCrash" icon={botCrash} url={'/botcrash'}/>
           </div>
 
           <div className="Games-entry">
-            <GameDisplay name="Adrift Among the Stars" icon={adriftAmongTheStars}/>
+            <GameDisplay name="Adrift Among the Stars" icon={adriftAmongTheStars} url={'/adriftamongthestars'}/>
           </div>
 
         </div>

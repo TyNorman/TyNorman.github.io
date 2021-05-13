@@ -7,7 +7,7 @@ class GameDisplay extends React.Component {
     return (
       <div class="contents">
         <h2>{this.props.name}</h2>
-        <a href="/about">
+        <a href={this.props.url}>
           <img src={this.props.icon} />
         </a>
       </div>
