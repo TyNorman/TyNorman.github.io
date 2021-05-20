@@ -1,5 +1,6 @@
 import logo from '../logo.svg';
 import './Main.css';
+import { Helmet } from 'react-helmet';
 import Header from '../components/Header';
 import GameDisplay from '../components/GameDisplay';
 import profilePic from '../assets/aboutme.jpg';
@@ -15,16 +16,20 @@ import endlessWorldDriver from '../assets/EndlessWorldDriver.png';
 function Main() {
   return (
     <div className="App">
+    <Helmet>
+                <style>{'body { background-color: #282c34; }'}</style>
+      </Helmet>
       <Header/>
+      <body>
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
         <div class="profile-icon">
                 <img src={profilePic} />
         </div>
 
-        <h1>Hello World!</h1>
+        <h1>Tyler Norman</h1>
         <p>
-          Bing bong I'm slowly making a website here
+          Game Developer
         </p>
 
         <div className="Games-grid">
@@ -62,6 +67,7 @@ function Main() {
 
         </div>
       </header>
+      </body>
     </div>
   );
 }

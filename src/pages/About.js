@@ -1,14 +1,30 @@
 import React from "react";
+import {Helmet} from 'react-helmet';
+import './About.css';
 import Header from '../components/Header';
 import profilePic from '../assets/aboutme.jpg';
 
 function About() {
   return (
     <div className="App">
+    <Helmet>
+      <style>{'body { background-color: #282c34; }'}</style>
+    </Helmet>
+    <body>
     <Header/>
       <div class="profile-icon">
           <img src={profilePic} />
-        </div>
+      </div>
+      <div class="contents">
+          <p>
+            Hey I'm Tyler Norman, a game developer who's spent most of their career freelancing in the games and interactive media space.
+            My major focus is in C# development through Unity, though I've picked up several different programming languages throughout my career including AngularJS, Actionscript, and Haxe.
+            I also picked up web development in React to make this site!
+            <br/><br/>
+            In my spare time, I like to work on my various hobby projects you might've seen from the front page where I do my own development, pixel art, and animation. I'm often keen on spending time outside on walks and taking up climbing
+          </p>
+          </div>
+          </body>
       </div>
   );
 }

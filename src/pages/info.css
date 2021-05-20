@@ -1,0 +1,29 @@
+.App h1 {
+  color: white;
+}
+
+.App body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+
+  justify-content: center;
+}
+
+.App p {
+  text-align: justify;
+}
+
+.screencaps {
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0px;
+  padding-top: 10%;
+}
