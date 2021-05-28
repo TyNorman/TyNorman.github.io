@@ -12,6 +12,7 @@ function ErrandsIndex() {
       </Helmet>
       <Header/>
       <body>
+      <div className="info">
         <h1>Errands '99</h1>
         <p>Errands '99 is a game jam entry developed in GB Studio for TOJam 2020 and a love-letter to my childhood spent frequently playing on my GameBoy Colour.</p>
         <p>
@@ -22,12 +23,13 @@ function ErrandsIndex() {
         </p>
 
         <p>You can play Errands '99' <a href="https://tynorman.itch.io/errands-99">here</a>.</p>
-        <div className="screencaps">
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
         </div>
+        <footer className="footer">
+          <img src={testPic} />
+          <img src={testPic} />
+          <img src={testPic} />
+          <img src={testPic} />
+        </footer>
       </body>
     </div>
   );

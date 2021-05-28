@@ -21,6 +21,9 @@ import IslandIndex from './pages/islandpopphoto/index';
 import PizzaIndex from './pages/pizzasquid/index';
 import RelentlessIndex from './pages/relentless/index';
 
+import RadiantIndex from './pages/radiant/index';
+import KarmanIndex from './pages/karman/index';
+
 class App extends Component {
   render() {
     return (
@@ -35,6 +38,9 @@ class App extends Component {
        <Route exact path="/islandpopphoto" component={IslandIndex} />
        <Route exact path="/pizzasquid" component={PizzaIndex} />
        <Route exact path="/relentless" component={RelentlessIndex} />
+
+       <Route exact path="/radiant" component={RadiantIndex} />
+       <Route exact path="/karman" component={KarmanIndex} />
       </Router>
     );
   }

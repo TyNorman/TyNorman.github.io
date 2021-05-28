@@ -4,7 +4,6 @@
 
 .App body {
   margin-top: 20px;
-  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
 
@@ -13,17 +12,29 @@
   color: white;
 
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+html, body {
+  height: 100%;
 }
 
 .App p {
   text-align: justify;
 }
 
-.screencaps {
-  display: grid;
-  align-items: center;
+.App img {
+  margin: 10px;
+}
 
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 0px;
-  padding-top: 10%;
+.info {
+  flex: 1 0 auto;
+  padding: 20px;
+  padding-bottom: 10%;
+}
+
+.footer {
+  flex-shrink: 0;
+  position: relative;
 }

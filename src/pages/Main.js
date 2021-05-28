@@ -12,6 +12,8 @@ import botCrash from '../assets/BotCrash.png';
 import relentless from '../assets/Relentless.png';
 import adriftAmongTheStars from '../assets/AdriftAmongTheStars.png';
 import endlessWorldDriver from '../assets/EndlessWorldDriver.png';
+import karman from '../assets/karman.png';
+import radiant from '../assets/Radiant.png';
 
 function Main() {
   return (
@@ -21,15 +23,16 @@ function Main() {
       </Helmet>
       <Header/>
       <body>
-      <header className="App-header">
+      <header className="hobby-Projects">
         {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
         <div class="profile-icon">
                 <img src={profilePic} />
         </div>
 
         <h1>Tyler Norman</h1>
+        <h2>Game Developer</h2>
         <p>
-          Game Developer
+          Hobby Projects
         </p>
 
         <div className="Games-grid">
@@ -64,9 +67,23 @@ function Main() {
           <div className="Games-entry">
             <GameDisplay name="Adrift Among the Stars" icon={adriftAmongTheStars} url={'/adriftamongthestars'}/>
           </div>
-
         </div>
       </header>
+
+      <header className="work-Projects">
+      <p>
+        Companies
+      </p>
+      <div className="Companies-grid">
+      <div className="Games-entry">
+        <GameDisplay name="Radiant Digital" icon={radiant} url={'/radiant'}/>
+        </div>
+        <div className="Games-entry">
+        <GameDisplay name="Karman Interactive" icon={karman} url={'/karman'}/>
+      </div>
+        </div>
+      </header>
+
       </body>
     </div>
   );
