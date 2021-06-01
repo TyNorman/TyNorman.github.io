@@ -38,3 +38,28 @@ html, body {
   flex-shrink: 0;
   position: relative;
 }
+
+/* unvisited link */
+.info a:link {
+  color: #b9f588;
+  text-decoration: none;
+}
+
+/* visited link */
+.info a:visited {
+  color: #b9f588;
+  text-decoration: none;
+ }
+
+
+/* mouse over link */
+.info a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+.info a:active {
+  color: #a669c9;
+  text-decoration: none;
+}
