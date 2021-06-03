@@ -13,21 +13,16 @@ function RelentlessIndex() {
       <Header/>
       <body>
       <div className="info">
-          <h1>Cursed Seasons</h1>
-          <p>Cursed Seasons is a hobby project made in Unity that I've worked on since 2014 on the side of contract work and other projects. </p>
+          <h1>Relentless</h1>
+          <p>Relentless is a project I entered in GameJolt's Indies Vs Gamers jam in 2015.</p>
           <p>
-            In Cursed Seasons, you have inherited both a long-forgotten farm and a curse of repeating death.
-            Using what you've farmed and gathered on the surface, delve into deep dungeons and ominous caves to find a cure and break the cycle.
-            Encounter hostile monsters at night and in the wilderness outside your farm, and meet villagers in the nearby towns to exchange with and learn more about the world.
-            Explore procedurally generated dungeons, with each death randomizing a completely new experience.
-            Play as several different characters with unique traits and starting gear.
+            Relentless is a 2D arcade shooter where you survive against waves of enemies, using money earned to purchase upgrades between waves. For this project, I really wanted to make another wave survival game after making Adrift Among the Stars, with a basic shop system to be used before the next wave starts. This was also the first project where I wanted to loosely follow GameBoy Colour palette restrictions.
           </p>
           <p>
-            I am the sole developer on Cursed Seasons programming in C#, creating and animating pixel art assets, and writing shaders for neat visuals.
+            I made Relentless in Unity in 72 hours on my own, consisting of programming, pixel art, and animation.
           </p>
-          <p>Cursed Seasons is currently in development.</p>
 
-          <p>You can see more about Cursed Seasons <a href="https://tynorman.itch.io/cursed-seasons">here</a>.</p>
+          <p>You can play Relentless <a href="https://tynorman.itch.io/relentless">here</a>.</p>
         </div>
         <footer className="footer">
           <img src={testPic} />

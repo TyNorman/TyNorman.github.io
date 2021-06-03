@@ -10,8 +10,8 @@ function About() {
     <Helmet>
       <style>{'body { background-color: #282c34; }'}</style>
     </Helmet>
-    <body>
     <Header/>
+    <body>
       <div class="profile-icon">
           <img src={profilePic} />
       </div>
@@ -21,7 +21,7 @@ function About() {
             My major focus is in C# development through Unity, though I've picked up several different programming languages throughout my career including AngularJS, Actionscript, and Haxe.
             I also picked up web development in React to make this site!
             <br/><br/>
-            In my spare time, I like to work on my various hobby projects you might've seen from the front page where I do my own development, pixel art, and animation. I'm often keen on spending time outside on walks and taking up climbing
+            In my spare time, I like to work on my various hobby projects where I do programming, pixel art, and animation. I'm often keen on spending time outside on walks and taking up climbing
           </p>
           </div>
           </body>

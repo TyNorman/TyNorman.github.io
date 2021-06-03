@@ -13,21 +13,16 @@ function PizzaIndex() {
       <Header/>
       <body>
       <div className="info">
-          <h1>Cursed Seasons</h1>
-          <p>Cursed Seasons is a hobby project made in Unity that I've worked on since 2014 on the side of contract work and other projects. </p>
+          <h1>Pizza Squid</h1>
+          <p>Pizza Squid is a solo project I developed for Global Game Jam 2015. </p>
           <p>
-            In Cursed Seasons, you have inherited both a long-forgotten farm and a curse of repeating death.
-            Using what you've farmed and gathered on the surface, delve into deep dungeons and ominous caves to find a cure and break the cycle.
-            Encounter hostile monsters at night and in the wilderness outside your farm, and meet villagers in the nearby towns to exchange with and learn more about the world.
-            Explore procedurally generated dungeons, with each death randomizing a completely new experience.
-            Play as several different characters with unique traits and starting gear.
+            Using four of your tentacles, eat as much pizza as you can before the time runs out! Pizza Squid can be played locally with a keyboard or controller. For this project, I really wanted to make something that used Unity's hinge joint system while also coming up with a wacky local multiplayer concept.
           </p>
           <p>
-            I am the sole developer on Cursed Seasons programming in C#, creating and animating pixel art assets, and writing shaders for neat visuals.
+            I made Pizza Squid in 48 hours by myself, doing all of the programming, art, and animation. Later I spent about a week updating the project's art and various issues to demo it locally at the Canadian Gaming Expo 2017 in Ottawa.
           </p>
-          <p>Cursed Seasons is currently in development.</p>
 
-          <p>You can see more about Cursed Seasons <a href="https://tynorman.itch.io/cursed-seasons">here</a>.</p>
+          <p>You can play Pizza Squid <a href="https://tynorman.itch.io/pizza-squid">here</a>.</p>
         </div>
         <footer className="footer">
           <img src={testPic} />
