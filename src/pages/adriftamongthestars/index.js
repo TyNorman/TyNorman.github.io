@@ -2,7 +2,10 @@ import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import '../info.css';
-import testPic from '../../assets/cursedseasons/test.gif';
+import screen1 from '../../assets/adriftamongthestars/Screenshot1.png';
+import screen2 from '../../assets/adriftamongthestars/Screenshot2.png';
+import screen3 from '../../assets/adriftamongthestars/Screenshot3.png';
+import screen4 from '../../assets/adriftamongthestars/Anim.gif';
 
 function AdriftIndex() {
   return (
@@ -25,10 +28,10 @@ function AdriftIndex() {
           <p>You can play Adrift Among the Stars <a href="https://tynorman.itch.io/adrift-among-the-stars">here</a>.</p>
         </div>
         <footer className="footer">
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
+          <img src={screen1} />
+          <img src={screen2} />
+          <img src={screen3} />
+          <img src={screen4} />
         </footer>
       </body>
     </div>

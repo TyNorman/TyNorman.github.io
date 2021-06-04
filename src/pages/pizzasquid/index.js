@@ -2,7 +2,10 @@ import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import '../info.css';
-import testPic from '../../assets/cursedseasons/test.gif';
+import screen1 from '../../assets/pizzasquid/Screenshot1.png';
+import screen2 from '../../assets/pizzasquid/Screenshot2.png';
+import screen3 from '../../assets/pizzasquid/Screenshot3.png';
+import screen4 from '../../assets/pizzasquid/Anim.gif';
 
 function PizzaIndex() {
   return (
@@ -25,10 +28,10 @@ function PizzaIndex() {
           <p>You can play Pizza Squid <a href="https://tynorman.itch.io/pizza-squid">here</a>.</p>
         </div>
         <footer className="footer">
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
+          <img src={screen1} />
+          <img src={screen2} />
+          <img src={screen3} />
+          <img src={screen4} />
         </footer>
       </body>
     </div>

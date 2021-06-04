@@ -3,6 +3,9 @@ import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import '../info.css';
 import testPic from '../../assets/cursedseasons/test.gif';
+import bow from '../../assets/cursedseasons/Bow_Anims.gif';
+import farming from '../../assets/cursedseasons/Farming.gif';
+import boss from '../../assets/cursedseasons/Boss.png';
 
 function CursedIndex() {
   return (
@@ -31,9 +34,9 @@ function CursedIndex() {
         </div>
         <footer className="footer">
           <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
-          <img src={testPic} />
+          <img src={bow} />
+          <img src={boss} />
+          <img src={farming} />
         </footer>
       </body>
     </div>
