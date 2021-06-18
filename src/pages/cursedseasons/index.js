@@ -11,7 +11,7 @@ function CursedIndex() {
   return (
     <div className="App">
       <Helmet>
-        <style>{'body { background-color: #282c34; }'}</style>
+        <style>{'body { background-color: rgba(44, 40, 52, 0.8); }'}</style>
       </Helmet>
       <Header/>
       <body>
