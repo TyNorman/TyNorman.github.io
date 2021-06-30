@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Link,
@@ -27,7 +27,7 @@ import KarmanIndex from './pages/karman/index';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Switch>
        <Route exact path="/" component={Main} />
        <Route exact path="/about" component={About} />
        <Route exact path="/adriftamongthestars" component={AdriftIndex} />
@@ -41,7 +41,7 @@ class App extends Component {
 
        <Route exact path="/radiant" component={RadiantIndex} />
        <Route exact path="/karman" component={KarmanIndex} />
-      </Router>
+      </Switch>
     );
   }
 }
