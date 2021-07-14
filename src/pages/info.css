@@ -24,8 +24,11 @@ html, body {
   text-align: justify;
 }
 
-.App img {
-  margin: 10px;
+.footer img {
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .info {

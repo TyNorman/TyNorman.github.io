@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 ReactDOM.render(
   <Router basename='/'>
+  <ParallaxProvider>
   < App/>
+  </ParallaxProvider>
   </Router>,
   document.getElementById('root'));
 

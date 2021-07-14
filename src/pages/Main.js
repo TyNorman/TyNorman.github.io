@@ -2,7 +2,12 @@ import logo from '../logo.svg';
 import './Main.css';
 import { Helmet } from 'react-helmet';
 import Header from '../components/Header';
+import Background from '../components/Background';
 import GameDisplay from '../components/GameDisplay';
+import { Parallax } from 'react-scroll-parallax';
+
+import treesLeft from '../assets/Trees_Left.png';
+import treesRight from '../assets/Trees_Right.png';
 import profilePic from '../assets/aboutme.jpg';
 import cursedSeasons from '../assets/Twitter1.jpg'
 import islandpopphoto from '../assets/Itch_Preview8.png'
@@ -17,13 +22,15 @@ import radiant from '../assets/Radiant.png';
 
 function Main() {
   return (
+
     <div className="App">
-    <Helmet>
-                <style>{'body { background-color: rgba(44, 40, 52, 0.8); }'}
-                </style>
-      </Helmet>
+    <div class="Container">
+
       <Header/>
+
+<span class="overlay">
       <body>
+
       <header className="hobby-Projects">
         {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
         <div class="profile-icon">
@@ -84,8 +91,17 @@ function Main() {
       </div>
         </div>
       </header>
-
+        <div class="bg-objects">
+        <Parallax y={[-30, 30]}>
+          <img class="bg-trees-left " src={treesLeft} />
+          <img class="bg-trees-right " src={treesRight} />
+          </Parallax>
+          </div>
       </body>
+      </span>
+
+    </div>
+
     </div>
   );
 }

@@ -1,7 +1,39 @@
+.Container {
+    position: relative;
+}
+
 .App {
     text-align: center;
-    background-image: url(../assets/bgtest.jpg);
     padding-bottom: 20px;
+    background-image: url(../assets/Background_Test1.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.App .overlay {
+  position: static;
+  background-color: rgba(44, 40, 52, 0.8);
+}
+
+.App .bg-objects {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.App .bg-trees-left {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+.App .bg-trees-right {
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
 }
 
 .App-logo {
@@ -51,4 +83,5 @@
 }
 
 .Games-entry {
+  z-index: 1;
 }
