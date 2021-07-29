@@ -1,2 +1,18 @@
 .Background {
+
+}
+
+
+.Background .bg-trees-left {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.Background .bg-trees-right {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  padding: 0;
 }

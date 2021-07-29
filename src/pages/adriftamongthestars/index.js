@@ -28,10 +28,10 @@ function AdriftIndex() {
           <p>You can play Adrift Among the Stars <a href="https://tynorman.itch.io/adrift-among-the-stars">here</a>.</p>
         </div>
         <footer className="footer">
-          <img src={screen1} />
-          <img src={screen2} />
-          <img src={screen3} />
-          <img src={screen4} />
+          <img className="Screencap" src={screen1} />
+          <img className="Screencap" src={screen2} />
+          <img className="Screencap" src={screen3} />
+          <img className="Screencap" src={screen4} />
         </footer>
       </body>
     </div>

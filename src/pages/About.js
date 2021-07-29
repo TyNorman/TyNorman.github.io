@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import profilePic from '../assets/aboutme.jpg';
 import treesLeft from '../assets/Trees_Left.png';
 import treesRight from '../assets/Trees_Right.png';
+import Background from '../components/Background';
 
 function About() {
   return (
@@ -26,10 +27,6 @@ function About() {
             In my spare time, I like to work on my various hobby projects where I do programming, pixel art, and animation. I'm often keen on spending time exercising outside and taking up indoor climbing.
           </p>
           </div>
-          <div class="bg-objects">
-            <img class="bg-trees-left " src={treesLeft} />
-            <img class="bg-trees-right " src={treesRight} />
-            </div>
           </body>
       </div>
   );

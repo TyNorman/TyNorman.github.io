@@ -43,36 +43,36 @@ function Main() {
           Hobby Projects
         </p>
 
-        <div className="Games-grid">
-          <div className="Games-entry">
+        <div class="Games-grid">
+          <div class="Games-entry">
             <GameDisplay name="Cursed Seasons" icon={cursedSeasons} url={'/cursedseasons'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="Errands '99" icon={errands99} url={'/errands99'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="IslandPop Photo" icon={islandpopphoto} url={'/islandpopphoto'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="Pizza Squid" icon={pizzaSquid} url={'/pizzasquid'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="Endless World Driver" icon={endlessWorldDriver} url={'/endlessworlddriver'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="Relentless" icon={relentless} url={'/relentless'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="BotCrash" icon={botCrash} url={'/botcrash'}/>
           </div>
 
-          <div className="Games-entry">
+          <div class="Games-entry">
             <GameDisplay name="Adrift Among the Stars" icon={adriftAmongTheStars} url={'/adriftamongthestars'}/>
           </div>
         </div>
@@ -82,24 +82,22 @@ function Main() {
       <p>
         Companies
       </p>
-      <div className="Companies-grid">
-      <div className="Games-entry">
+      <div class="Companies-grid">
+      <div class="Games-entry">
         <GameDisplay name="Radiant Digital" icon={radiant} url={'/radiant'}/>
         </div>
-        <div className="Games-entry">
+        <div class="Games-entry">
         <GameDisplay name="Karman Interactive" icon={karman} url={'/karman'}/>
       </div>
         </div>
+
       </header>
-        <div class="bg-objects">
-        <Parallax y={[-30, 30]}>
-          <img class="bg-trees-left " src={treesLeft} />
-          <img class="bg-trees-right " src={treesRight} />
-          </Parallax>
-          </div>
+
+      <div class="bg-test">
+      </div>
+
       </body>
       </span>
-
     </div>
 
     </div>

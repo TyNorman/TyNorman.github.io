@@ -11,29 +11,14 @@
 }
 
 .App .overlay {
-  position: static;
+  display: block;
+  margin: 5%;
   background-color: rgba(44, 40, 52, 0.8);
 }
 
-.App .bg-objects {
+.App .bg-test {
   position: absolute;
-  margin: 0;
-  padding: 0;
-  bottom: 0;
-}
-
-.App .bg-trees-left {
-  left: 0;
-  margin: 0;
-  padding: 0;
-  z-index: 0;
-}
-
-.App .bg-trees-right {
-  right: 0;
-  margin: 0;
-  padding: 0;
-  z-index: 0;
+  bottom: 2.5%;
 }
 
 .App-logo {
@@ -80,6 +65,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-end;
+}
+
+.App .Screencap {
+  margin: 10px;
 }
 
 .Games-entry {

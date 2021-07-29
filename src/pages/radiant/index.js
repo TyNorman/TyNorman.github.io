@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet';
 import '../info.css';
 import appspire from '../../assets/radiant/appspire.png';
 import mflview from '../../assets/radiant/myfantasticlife.png';
-import geekactivity from '../../assets/radiant/geek_unpainted.jpeg';
+import bountymenu from '../../assets/radiant/BountyMenus.GIF';
+import bountybattle from '../../assets/radiant/BountyBattle.GIF';
 
 function RadiantIndex() {
   return (
@@ -27,9 +28,10 @@ function RadiantIndex() {
           </p>
         </div>
         <footer className="footer">
-          <img src={appspire} />
-          <img src={mflview} />
-          <img src={geekactivity} />
+          <img className="Screencap" src={appspire} />
+          <img className="Screencap" src={mflview} />
+          <img className="Screencap" src={bountymenu} />
+          <img className="Screencap" src={bountybattle} />
         </footer>
       </body>
     </div>

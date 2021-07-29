@@ -33,10 +33,10 @@ function CursedIndex() {
           <p>You can see more about Cursed Seasons <a href="https://tynorman.itch.io/cursed-seasons">here</a>.</p>
         </div>
         <footer className="footer">
-          <img src={testPic} />
-          <img src={bow} />
-          <img src={boss} />
-          <img src={farming} />
+          <img className="Screencap" src={testPic} />
+          <img className="Screencap" src={bow} />
+          <img className="Screencap" src={boss} />
+          <img className="Screencap" src={farming} />
         </footer>
       </body>
     </div>

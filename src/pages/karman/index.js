@@ -22,8 +22,8 @@ function KarmanIndex() {
           </p>
         </div>
         <footer className="footer">
-          <img src={pch_games} />
-          <img src={ar_sticker} />
+          <img className="Screencap" src={pch_games} />
+          <img className="Screencap"src={ar_sticker} />
         </footer>
       </body>
     </div>
