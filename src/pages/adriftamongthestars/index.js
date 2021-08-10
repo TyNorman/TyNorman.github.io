@@ -10,9 +10,9 @@ import screen4 from '../../assets/adriftamongthestars/Anim.gif';
 function AdriftIndex() {
   return (
     <div className="App">
-      <Helmet>
-        <style>{'body { background-color: rgba(44, 40, 52, 0.8); }'}</style>
-      </Helmet>
+    <Helmet>
+      <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
+    </Helmet>
       <Header/>
       <body>
       <div className="info">

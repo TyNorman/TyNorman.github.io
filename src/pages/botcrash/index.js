@@ -11,7 +11,7 @@ function BotCrashIndex() {
   return (
     <div className="App">
       <Helmet>
-        <style>{'body { background-color: rgba(44, 40, 52, 0.8); }'}</style>
+        <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
       <body>

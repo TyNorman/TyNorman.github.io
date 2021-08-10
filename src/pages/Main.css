@@ -10,10 +10,15 @@
     background-size: cover;
 }
 
+.App body {
+  background-color: rgba(44, 40, 52, 0.8);
+}
+
 .App .overlay {
   display: block;
+  position: inherit;
+  z-index: 2;
   margin: 5%;
-  background-color: rgba(44, 40, 52, 0.8);
 }
 
 .App .bg-test {
@@ -73,4 +78,38 @@
 
 .Games-entry {
   z-index: 1;
+}
+
+.bg-objects {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+
+}
+
+.parallax-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.parallax-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-objects .bg-trees-left {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.bg-objects .bg-trees-right {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
 }

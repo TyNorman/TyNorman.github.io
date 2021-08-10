@@ -1,7 +1,10 @@
 import React from "react";
 import {Helmet} from 'react-helmet';
-import './About.css';
+import { Parallax } from 'react-scroll-parallax';
 import Header from '../components/Header';
+
+import './About.css';
+
 import profilePic from '../assets/aboutme.jpg';
 import treesLeft from '../assets/Trees_Left.png';
 import treesRight from '../assets/Trees_Right.png';
@@ -10,11 +13,12 @@ import Background from '../components/Background';
 function About() {
   return (
     <div className="App">
-    <Helmet>
-      <style>{'body { background-color: rgba(44, 40, 52, 0.8);}'}</style>
-    </Helmet>
     <Header/>
-    <body className="about">
+    <Helmet>
+      <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
+    </Helmet>
+    <span class="overlay">
+    <body>
       <div class="profile-icon">
           <img src={profilePic} />
       </div>
@@ -28,6 +32,21 @@ function About() {
           </p>
           </div>
           </body>
+          </span>
+
+          <div class="bg-objects">
+            <span class="parallax-left">
+              <Parallax y={[0, 30]}>
+                <img class="bg-trees-left" src={treesLeft} />
+              </Parallax>
+            </span>
+            <span class="parallax-right">
+              <Parallax y={[0, 30]}>
+                <img class="bg-trees-right" src={treesRight} />
+              </Parallax>
+            </span>
+          </div>
+
       </div>
   );
 }

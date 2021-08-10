@@ -27,8 +27,11 @@ function Main() {
     <div class="Container">
 
       <Header/>
+      <Helmet>
+        <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
+      </Helmet>
 
-<span class="overlay">
+      <span class="overlay">
       <body>
 
       <header className="hobby-Projects">
@@ -90,16 +93,25 @@ function Main() {
         <GameDisplay name="Karman Interactive" icon={karman} url={'/karman'}/>
       </div>
         </div>
-
       </header>
-
-      <div class="bg-test">
-      </div>
 
       </body>
       </span>
-    </div>
 
+      <div class="bg-objects">
+        <span class="parallax-left">
+          <Parallax y={[0, 30]}>
+            <img class="bg-trees-left" src={treesLeft} />
+          </Parallax>
+        </span>
+        <span class="parallax-right">
+          <Parallax y={[0, 30]}>
+            <img class="bg-trees-right" src={treesRight} />
+          </Parallax>
+        </span>
+      </div>
+
+    </div>
     </div>
   );
 }

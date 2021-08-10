@@ -9,11 +9,17 @@ import treesRight from '../assets/Trees_Right.png';
 class Background extends React.Component {
   render() {
     return (
-      <div class="Background">
-          <Parallax y={[0, 25]}>
+      <div class="bg-objects">
+        <span class="parallax-left">
+          <Parallax y={[0, 30]}>
             <img class="bg-trees-left" src={treesLeft} />
+          </Parallax>
+        </span>
+        <span class="parallax-right">
+          <Parallax y={[0, 30]}>
             <img class="bg-trees-right" src={treesRight} />
           </Parallax>
+        </span>
       </div>
     );
   }
