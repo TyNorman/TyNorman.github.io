@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
+import Background from '../../components/Background';
 import '../info.css';
 import pch_games from '../../assets/karman/PCH_Lotto.jpg';
 import ar_sticker from '../../assets/karman/AR_Preview.PNG';
@@ -26,6 +27,7 @@ function KarmanIndex() {
           <img className="Screencap"src={ar_sticker} />
         </footer>
       </body>
+      <Background/>
     </div>
   );
 }

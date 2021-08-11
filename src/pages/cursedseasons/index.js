@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
+import Background from '../../components/Background';
 import '../info.css';
 import testPic from '../../assets/cursedseasons/test.gif';
 import bow from '../../assets/cursedseasons/Bow_Anims.gif';
@@ -39,6 +40,7 @@ function CursedIndex() {
           <img className="Screencap" src={farming} />
         </footer>
       </body>
+      <Background/>
     </div>
   );
 }

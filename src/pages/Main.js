@@ -98,18 +98,7 @@ function Main() {
       </body>
       </span>
 
-      <div class="bg-objects">
-        <span class="parallax-left">
-          <Parallax y={[0, 30]}>
-            <img class="bg-trees-left" src={treesLeft} />
-          </Parallax>
-        </span>
-        <span class="parallax-right">
-          <Parallax y={[0, 30]}>
-            <img class="bg-trees-right" src={treesRight} />
-          </Parallax>
-        </span>
-      </div>
+      <Background/>
 
     </div>
     </div>

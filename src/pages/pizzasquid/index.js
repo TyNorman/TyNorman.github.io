@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
+import Background from '../../components/Background';
 import '../info.css';
 import screen1 from '../../assets/pizzasquid/Screenshot1.png';
 import screen2 from '../../assets/pizzasquid/Screenshot2.png';
@@ -34,6 +35,7 @@ function PizzaIndex() {
           <img className="Screencap" src={screen4} />
         </footer>
       </body>
+      <Background/>
     </div>
   );
 }

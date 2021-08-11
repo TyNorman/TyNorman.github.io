@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
+import Background from '../../components/Background';
 import '../info.css';
 import appspire from '../../assets/radiant/appspire.png';
 import mflview from '../../assets/radiant/myfantasticlife.png';
@@ -34,6 +35,7 @@ function RadiantIndex() {
           <img className="Screencap" src={bountybattle} />
         </footer>
       </body>
+      <Background/>
     </div>
   );
 }
