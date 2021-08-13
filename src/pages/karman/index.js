@@ -9,10 +9,12 @@ import ar_sticker from '../../assets/karman/AR_Preview.PNG';
 function KarmanIndex() {
   return (
     <div className="App">
+    <div class="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
         </Helmet>
       <Header/>
+      <span class="overlay">
       <body>
       <div className="info">
           <h1>Karman Interactive</h1>
@@ -27,7 +29,9 @@ function KarmanIndex() {
           <img className="Screencap"src={ar_sticker} />
         </footer>
       </body>
+      </span>
       <Background/>
+    </div>
     </div>
   );
 }

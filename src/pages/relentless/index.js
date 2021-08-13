@@ -11,10 +11,12 @@ import screen4 from '../../assets/relentless/Screenshot4.png';
 function RelentlessIndex() {
   return (
     <div className="App">
+    <div class="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
+      <span class="overlay">
       <body>
       <div className="info">
           <h1>Relentless</h1>
@@ -35,7 +37,9 @@ function RelentlessIndex() {
           <img src={screen4} />
         </footer>
       </body>
+      </span>
       <Background/>
+    </div>
     </div>
   );
 }

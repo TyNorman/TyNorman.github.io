@@ -11,10 +11,12 @@ import screen4 from '../../assets/adriftamongthestars/Anim.gif';
 function AdriftIndex() {
   return (
     <div className="App">
+    <div class="Container">
     <Helmet>
       <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
     </Helmet>
       <Header/>
+      <span class="overlay">
       <body>
       <div className="info">
           <h1>Adrift Among the Stars</h1>
@@ -35,7 +37,9 @@ function AdriftIndex() {
           <img className="Screencap" src={screen4} />
         </footer>
       </body>
+      </span>
       <Background/>
+      </div>
     </div>
   );
 }

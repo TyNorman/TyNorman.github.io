@@ -11,10 +11,12 @@ import screen4 from '../../assets/errands99/Screenshot4.png';
 function ErrandsIndex() {
   return (
     <div className="App">
+    <div class="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
         </Helmet>
       <Header/>
+      <span class="overlay">
       <body>
       <div className="info">
         <h1>Errands '99</h1>
@@ -35,7 +37,9 @@ function ErrandsIndex() {
           <img className="Screencap" src={screen4} />
         </footer>
       </body>
+      </span>
       <Background/>
+    </div>
     </div>
   );
 }

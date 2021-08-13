@@ -2,17 +2,19 @@ import React from "react";
 import {Helmet} from 'react-helmet';
 import { Parallax } from 'react-scroll-parallax';
 import Header from '../components/Header';
+import Background from '../components/Background';
 
 import './About.css';
 
 import profilePic from '../assets/aboutme.jpg';
 import treesLeft from '../assets/Trees_Left.png';
 import treesRight from '../assets/Trees_Right.png';
-import Background from '../components/Background';
+
 
 function About() {
   return (
     <div className="App">
+    <div class="Container">
     <Header/>
     <Helmet>
       <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
@@ -34,19 +36,8 @@ function About() {
           </body>
           </span>
 
-          <div class="bg-objects">
-            <span class="parallax-left">
-              <Parallax y={[0, 30]}>
-                <img class="bg-trees-left" src={treesLeft} />
-              </Parallax>
-            </span>
-            <span class="parallax-right">
-              <Parallax y={[0, 30]}>
-                <img class="bg-trees-right" src={treesRight} />
-              </Parallax>
-            </span>
+          <Background/>
           </div>
-
       </div>
   );
 }

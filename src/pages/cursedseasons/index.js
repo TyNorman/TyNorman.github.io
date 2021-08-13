@@ -11,10 +11,12 @@ import boss from '../../assets/cursedseasons/Boss.png';
 function CursedIndex() {
   return (
     <div className="App">
+    <div class="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
+      <span class="overlay">
       <body>
       <div className="info">
           <h1>Cursed Seasons</h1>
@@ -40,7 +42,9 @@ function CursedIndex() {
           <img className="Screencap" src={farming} />
         </footer>
       </body>
+      </span>
       <Background/>
+    </div>
     </div>
   );
 }

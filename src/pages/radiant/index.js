@@ -11,10 +11,12 @@ import bountybattle from '../../assets/radiant/BountyBattle.GIF';
 function RadiantIndex() {
   return (
     <div className="App">
+    <div class="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
+      <span class="overlay">
       <body>
       <div className="info">
           <h1>Radiant Digital</h1>
@@ -35,7 +37,9 @@ function RadiantIndex() {
           <img className="Screencap" src={bountybattle} />
         </footer>
       </body>
+      </span>
       <Background/>
+    </div>
     </div>
   );
 }
