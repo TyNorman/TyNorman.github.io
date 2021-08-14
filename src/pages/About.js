@@ -24,9 +24,9 @@ function About() {
       <div class="profile-icon">
           <img src={profilePic} />
       </div>
-      <div className="contents">
+      <div className="About-contents">
           <p>
-            Hey I'm Tyler Norman, a game developer who's spent most of their career freelancing in the games and interactive media space.
+            Hey! I'm Tyler Norman, a game developer who's spent most of his career freelancing in the games and interactive media space.
             My major focus is in C# development through Unity, though I've picked up several different programming languages throughout my career including AngularJS, Actionscript, and Haxe.
             I also picked up web development in React to make this site!
             <br/><br/>
@@ -36,7 +36,10 @@ function About() {
           </body>
           </span>
 
-          <Background/>
+          <div className="spacer">
+            <Background/>
+          </div>
+
           </div>
       </div>
   );
