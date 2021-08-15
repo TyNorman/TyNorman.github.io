@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
+import Legal from '../../components/Legal';
 import '../info.css';
 import screen1 from '../../assets/botcrash/Screenshot1.png';
 import screen2 from '../../assets/botcrash/Screenshot2.png';
@@ -40,6 +41,7 @@ function BotCrashIndex() {
       </span>
       <Background/>
     </div>
+    <Legal/>
     </div>
   );
 }

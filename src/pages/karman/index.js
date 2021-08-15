@@ -2,6 +2,7 @@ import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
+import Legal from '../../components/Legal';
 import '../info.css';
 import pch_games from '../../assets/karman/PCH_Lotto.jpg';
 import ar_sticker from '../../assets/karman/AR_Preview.PNG';
@@ -32,6 +33,7 @@ function KarmanIndex() {
       </span>
       <Background/>
     </div>
+    <Legal/>
     </div>
   );
 }

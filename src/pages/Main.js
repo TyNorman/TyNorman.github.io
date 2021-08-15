@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Background from '../components/Background';
 import GameDisplay from '../components/GameDisplay';
 import { Parallax } from 'react-scroll-parallax';
+import Legal from '../components/Legal';
 
 import treesLeft from '../assets/Trees_Left.png';
 import treesRight from '../assets/Trees_Right.png';
@@ -101,6 +102,7 @@ function Main() {
       <Background/>
 
     </div>
+    <Legal/>
     </div>
   );
 }

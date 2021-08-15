@@ -1,0 +1,9 @@
+.Legal {
+  align-items: center;
+  margin: 2%;
+}
+
+.Legal .text {
+  text-align: center;
+  color: #b9f588;
+}

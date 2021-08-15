@@ -20,3 +20,38 @@
   padding-top: 10%;
   padding-bottom: 5%;
 }
+
+.contact {
+    font-size: calc(10px + 2vmin);
+
+}
+
+.About-contents a {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* unvisited link */
+.About-contents a:link {
+  color: #b9f588;
+  text-decoration: underline;
+}
+
+/* visited link */
+.About-contents a:visited {
+  color: #b9f588;
+  text-decoration: underline;
+ }
+
+
+/* mouse over link */
+.About-contents a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+.About-contents a:active {
+  color: #a669c9;
+  text-decoration: underline;
+}

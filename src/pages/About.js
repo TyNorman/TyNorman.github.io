@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet';
 import { Parallax } from 'react-scroll-parallax';
 import Header from '../components/Header';
 import Background from '../components/Background';
+import Legal from '../components/Legal';
 
 import './About.css';
 
@@ -32,6 +33,16 @@ function About() {
             <br/><br/>
             In my spare time, I like to work on my various hobby projects where I do programming, pixel art, and animation. I'm often keen on spending time exercising outside and taking up indoor climbing.
           </p>
+
+          <p class="contact">
+            Contact
+          </p>
+          <div>
+            <a href="https://docs.google.com/forms/d/1KR1Hb1VQbFUF1usHL8Y50p71OV7Bc9QZIgdo5o_xb1U">Email</a>
+            <a href="https://tynorman.itch.io/">Itch.io</a>
+            <a href="https://www.linkedin.com/in/tylernorman/">LinkedIn</a>
+            <a href="https://twitter.com/TyNorman">Twitter</a>
+          </div>
           </div>
           </body>
           </span>
@@ -41,6 +52,7 @@ function About() {
           </div>
 
           </div>
+          <Legal/>
       </div>
   );
 }
