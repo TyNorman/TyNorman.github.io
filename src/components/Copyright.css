@@ -1,9 +1,9 @@
-.Legal {
+.Copyright {
   align-items: center;
-  margin: 2%;
+  margin-bottom: 2%;
 }
 
-.Legal .text {
+.Copyright .text {
   text-align: center;
   color: #b9f588;
 }

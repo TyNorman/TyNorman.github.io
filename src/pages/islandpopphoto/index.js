@@ -2,7 +2,7 @@ import React from "react";
 import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
-import Legal from '../../components/Legal';
+import Copyright from '../../components/Copyright';
 import '../info.css';
 import screen1 from '../../assets/islandpopphoto/Screenshot1.png';
 import screen2 from '../../assets/islandpopphoto/Screenshot2.png';
@@ -41,7 +41,7 @@ function IslandIndex() {
       </span>
       <Background/>
     </div>
-    <Legal/>
+    <Copyright/>
     </div>
   );
 }

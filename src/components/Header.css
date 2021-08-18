@@ -4,6 +4,8 @@
   grid-template-areas: "logo nav";
   background-color: #2ad178;
   font-family: 'Oxygen', sans-serif;
+  z-index: 2;
+  position: inherit;
 }
 
 .Nav {
@@ -17,6 +19,7 @@
   justify-items: center;
   font-size: 20px;
   color: white;
+
 }
 
 .header-link {

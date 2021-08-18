@@ -5,26 +5,49 @@
   align-items: center;
   justify-content: center;
   z-index: 2;
+
 }
 
-.contents {
-  height: fit-content;
+.GameContents {
+  display: inline-block;
   align-items: center;
   justify-content: center;
   margin-top: 4px;
   margin-bottom: 4px;
   padding: 10px;
+  width: 350px;
+  height: 350px;
 }
 
 
-.gameImg {
+.GameImg {
   width: 325px;
   height: 325px;
   object-fit: cover;
   border: 2px solid rgba(255, 255, 255, 1);
 }
 
-.gameTitle {
+@media only screen and (max-width: 700px)  {
+  .GameContents {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 5px;
+    width: 225px;
+    height: 225px;
+  }
+
+  .GameImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 1);
+  }
+}
+
+.GameTitle {
   font-size: 16px;
   font-style: normal;
   align-items: center;

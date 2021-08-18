@@ -4,7 +4,6 @@
 
 .App {
     text-align: center;
-    padding-bottom: 20px;
     background-image: url(../assets/Background_Test1.png);
     background-position: top;
     background-size: cover;
@@ -20,6 +19,9 @@
   z-index: 2;
   margin: 5%;
 }
+
+
+
 
 .App .bg-test {
   position: absolute;
@@ -50,24 +52,23 @@
   color: white;
 }
 
+
 .Games-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: flex-end;
+  margin: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .App .overlay {
+      margin: 0;
+    }
 }
 
 .Companies-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: flex-end;
+  margin: 8px;
 }
 
 .App .Screencap {
   margin: 10px;
-}
-
-.Games-entry {
-  z-index: 2;
 }
 
 .bg-objects {

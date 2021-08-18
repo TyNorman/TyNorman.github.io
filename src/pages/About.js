@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 import { Parallax } from 'react-scroll-parallax';
 import Header from '../components/Header';
 import Background from '../components/Background';
-import Legal from '../components/Legal';
+import Copyright from '../components/Copyright';
 
 import './About.css';
 
@@ -52,7 +52,7 @@ function About() {
           </div>
 
           </div>
-          <Legal/>
+          <Copyright/>
       </div>
   );
 }
