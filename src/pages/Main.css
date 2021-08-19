@@ -9,6 +9,27 @@
     background-size: cover;
 }
 
+.App .itme {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.App .name {
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.App .title {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
 .App body {
   background-color: rgba(44, 40, 52, 0.8);
 }
@@ -19,9 +40,6 @@
   z-index: 2;
   margin: 5%;
 }
-
-
-
 
 .App .bg-test {
   position: absolute;
@@ -40,6 +58,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-top: 2px dashed #ccc;
   border-bottom: 2px dashed #ccc;
 }
 
@@ -52,51 +71,31 @@
   color: white;
 }
 
-
 .Games-grid {
-  margin: 8px;
-}
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 
-@media screen and (max-width: 1024px) {
-  .App .overlay {
-      margin: 0;
-    }
+  margin-bottom: 10px;
 }
 
 .Companies-grid {
-  margin: 8px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
 }
 
 .App .Screencap {
   margin: 10px;
 }
 
-.bg-objects {
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-}
 
-.parallax-left {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.parallax-right {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.bg-objects .bg-trees-left {
-  margin: 0;
-  padding: 0;
-  bottom: 0;
-}
-
-.bg-objects .bg-trees-right {
-  margin: 0;
-  padding: 0;
-  bottom: 0;
+@media screen and (max-width: 640px) {
+  .App .overlay {
+      margin: 0;
+    }
 }

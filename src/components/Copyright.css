@@ -1,9 +1,14 @@
 .Copyright {
+  display: block;
+  position: sticky;
   align-items: center;
-  margin-bottom: 2%;
+  justify-content: center;
+  margin: 10px;
+  z-index: 2;
 }
 
 .Copyright .text {
   text-align: center;
   color: #b9f588;
+
 }

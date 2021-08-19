@@ -35,14 +35,18 @@ function Main() {
       <span class="overlay">
       <body>
 
-      <header className="hobby-Projects">
+
         {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
         <div class="profile-icon">
                 <img src={profilePic} />
         </div>
 
-        <h1>Tyler Norman</h1>
-        <h2>Game Developer</h2>
+        <div class="itme">
+          <h1 class="name">Tyler Norman</h1>
+          <p class="title">Game Developer</p>
+        </div>
+
+        <header className="hobby-Projects">
         <p>
           Hobby Projects
         </p>

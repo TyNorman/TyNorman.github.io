@@ -3,6 +3,8 @@ import { View } from 'react-native';
 import BackgroundObject from '../components/BackgroundObject';
 import { Parallax } from 'react-scroll-parallax';
 
+import './Background.css';
+
 import treesLeft from '../assets/Trees_Left.png';
 import treesRight from '../assets/Trees_Right.png';
 

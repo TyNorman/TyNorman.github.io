@@ -9,14 +9,11 @@
 }
 
 .GameContents {
-  display: inline-block;
-  align-items: center;
+  display: block;
   justify-content: center;
-  margin-top: 4px;
-  margin-bottom: 4px;
   padding: 10px;
-  width: 350px;
-  height: 350px;
+  width: auto;
+  height: auto;
 }
 
 
@@ -27,29 +24,35 @@
   border: 2px solid rgba(255, 255, 255, 1);
 }
 
-@media only screen and (max-width: 700px)  {
-  .GameContents {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 5px;
-    width: 225px;
-    height: 225px;
-  }
-
-  .GameImg {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border: 2px solid rgba(255, 255, 255, 1);
-  }
-}
-
 .GameTitle {
   font-size: 16px;
   font-style: normal;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 640px)  {
+  .GameContents {
+    display: block;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    width: auto;
+    height: auto;
+  }
+
+  .GameImg {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+
+  .GameTitle {
+    font-size: 8px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,3 +1,61 @@
 .Background {
 
 }
+
+.bg-objects {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.parallax-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-objects .bg-trees-left {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.bg-objects .bg-trees-right {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .parallax-left {
+    position: absolute;
+    left: -10%;
+    bottom: -10%;
+  }
+
+  .parallax-right {
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+  }
+
+  .bg-objects .bg-trees-left {
+    margin: 0;
+    padding: 0;
+    bottom: -10%;
+    width: 184px;
+  }
+
+  .bg-objects .bg-trees-right {
+    margin: 0;
+    padding: 0;
+    bottom: -10%;
+    width: 184px;
+  }
+}
