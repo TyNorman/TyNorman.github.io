@@ -28,17 +28,22 @@ function About() {
       <div className="About-contents">
           <p>
             Hey! I'm Tyler Norman, a game developer who's spent most of his career freelancing in the games and interactive media space.
+            <br/><br/>
             My major focus is in C# development through Unity, though I've picked up several different programming languages throughout my career including AngularJS, Actionscript, and Haxe.
             I also picked up web development in React to make this site!
             <br/><br/>
-            In my spare time, I like to work on my various hobby projects where I do programming, pixel art, and animation. I'm often keen on spending time exercising outside and taking up indoor climbing.
+            Outside of work, I like to tinker away at hobby projects, mostly based in Unity where I solely do game design, programming, writing, pixel art, and animation.
+            <br/><br/>
+            Away from the screen, I'm often keen on spending time exercising outside and taking up indoor climbing. Lately my interests have been focused towards the improvement of my own mental health in the midst of a pandemic. Pre-pandemic, I started a small, casual gathering of other game developers to meet up for coffee outside of work throughout the city.
+            <br/><br/>
+            I live in Ottawa, Ontario.
           </p>
 
           <p class="contact">
             Contact
           </p>
           <div>
-            <a href="https://docs.google.com/forms/d/1KR1Hb1VQbFUF1usHL8Y50p71OV7Bc9QZIgdo5o_xb1U">Email</a>
+            <a href="https://forms.gle/q28kTyd5hoz6QCsJ6">Email</a>
             <a href="https://tynorman.itch.io/">Itch.io</a>
             <a href="https://www.linkedin.com/in/tylernorman/">LinkedIn</a>
             <a href="https://twitter.com/TyNorman">Twitter</a>
