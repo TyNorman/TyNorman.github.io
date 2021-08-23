@@ -6,8 +6,8 @@ import Copyright from '../../components/Copyright';
 import '../info.css';
 import appspire from '../../assets/radiant/appspire.png';
 import mflview from '../../assets/radiant/myfantasticlife.png';
-import bountymenu from '../../assets/radiant/BountyMenus.GIF';
-import bountybattle from '../../assets/radiant/BountyBattle.GIF';
+import bountymenu from '../../assets/radiant/BountyMenus.gif';
+import bountybattle from '../../assets/radiant/BountyBattle.gif';
 
 function RadiantIndex() {
   return (
