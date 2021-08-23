@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.78f3a198.chunk.css",
-    "main.js": "/static/js/main.33d7677d.chunk.js",
-    "main.js.map": "/static/js/main.33d7677d.chunk.js.map",
+    "main.js": "/static/js/main.50ec34a8.chunk.js",
+    "main.js.map": "/static/js/main.50ec34a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3c3000b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.3c3000b1.js.map",
     "static/js/2.32b45010.chunk.js": "/static/js/2.32b45010.chunk.js",
@@ -21,8 +21,8 @@
     "static/media/Main.css": "/static/media/Background_Test1.9d47e0e7.png",
     "static/media/Boss.f8832488.png": "/static/media/Boss.f8832488.png",
     "static/media/BotCrash.a0da7aba.png": "/static/media/BotCrash.a0da7aba.png",
-    "static/media/BountyBattle.5dbae9ac.GIF": "/static/media/BountyBattle.5dbae9ac.GIF",
-    "static/media/BountyMenus.38453d7d.GIF": "/static/media/BountyMenus.38453d7d.GIF",
+    "static/media/BountyBattle.cbf7fceb.gif": "/static/media/BountyBattle.cbf7fceb.gif",
+    "static/media/BountyMenus.d770be0a.gif": "/static/media/BountyMenus.d770be0a.gif",
     "static/media/Bow_Anims.25292cc9.gif": "/static/media/Bow_Anims.25292cc9.gif",
     "static/media/EndlessWorldDriver.fd2c2f36.png": "/static/media/EndlessWorldDriver.fd2c2f36.png",
     "static/media/Errands99.2451b735.png": "/static/media/Errands99.2451b735.png",
@@ -67,6 +67,6 @@
     "static/js/runtime-main.3c3000b1.js",
     "static/js/2.32b45010.chunk.js",
     "static/css/main.78f3a198.chunk.css",
-    "static/js/main.33d7677d.chunk.js"
+    "static/js/main.50ec34a8.chunk.js"
   ]
 }
