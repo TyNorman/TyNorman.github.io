@@ -48,7 +48,7 @@ function Main() {
 
         <header className="hobby-Projects">
         <p>
-          Hobby Projects
+          Personal Projects
         </p>
 
         <div class="Games-grid">
