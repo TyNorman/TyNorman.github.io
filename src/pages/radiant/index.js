@@ -26,6 +26,9 @@ function RadiantIndex() {
           <p>
             With Radiant I was the Lead Unity Developer coordinating with Radiant's offshore team to implement several educational activities in a 3D environment and assisting with any troubleshooting as needed while also managing the programming side of the project. I was responsible for integrating 2D UI functionality and ensuring it reflected design documents. I was also responsible for integrating activities and game state management into the dialogue system. I implemented spatial audio adjustment and movement-based UI visuals for ease of access. I also developed a flight camera system to be used by other team members to demonstrate work in progress scenes.
           </p>
+          <p>
+            On other Radiant projects I was a Front-End Developer implementing UI, activities, gameplay mechanics, and bug fixes. On some Flash-based projects I also took responsibility for basic ink and paint work on sketched assets to be integrated into the project. I also taught myself Haxe and AngularJS for two projects to assist the team with development.
+          </p>
           <br/>
           <p>
           Over the years, my responsibilities at Radiant consisted of the following:
