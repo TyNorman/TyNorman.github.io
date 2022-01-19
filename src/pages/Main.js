@@ -35,8 +35,6 @@ function Main() {
       <span class="overlay">
       <body>
 
-
-        {/* <img src={logo} className="App-logo" alt="logo" fill="#ffffff"/> */}
         <div class="profile-icon">
                 <img src={profilePic} />
         </div>
