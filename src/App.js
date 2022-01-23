@@ -23,6 +23,7 @@ import RelentlessIndex from './pages/relentless/index';
 
 import RadiantIndex from './pages/radiant/index';
 import KarmanIndex from './pages/karman/index';
+import DrinkboxIndex from './pages/drinkbox/index';
 
 class App extends Component {
   render() {
@@ -41,6 +42,7 @@ class App extends Component {
 
        <Route exact path="/radiant" component={RadiantIndex} />
        <Route exact path="/karman" component={KarmanIndex} />
+       <Route exact path="/drinkbox" component={DrinkboxIndex} />
       </Switch>
     );
   }

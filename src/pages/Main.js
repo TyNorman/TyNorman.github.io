@@ -9,7 +9,7 @@ import Copyright from '../components/Copyright';
 
 import treesLeft from '../assets/Trees_Left.png';
 import treesRight from '../assets/Trees_Right.png';
-import profilePic from '../assets/aboutme.jpg';
+import profilePic from '../assets/aboutme2.jpg';
 import cursedSeasons from '../assets/Twitter1.jpg';
 import islandpopphoto from '../assets/Itch_Preview8.png';
 import errands99 from '../assets/Errands99.png';
@@ -20,6 +20,7 @@ import adriftAmongTheStars from '../assets/AdriftAmongTheStars.png';
 import endlessWorldDriver from '../assets/EndlessWorldDriver.png';
 import karman from '../assets/karman.png';
 import radiant from '../assets/Radiant.png';
+import drinkbox from '../assets/Drinkbox.png';
 
 function Main() {
   return (
@@ -74,6 +75,7 @@ function Main() {
       </p>
       <div class="Companies-grid">
         <GameDisplay name="Radiant Digital" icon={radiant} url={'/radiant'}/>
+        <GameDisplay name="Drinkbox Studios" icon={drinkbox} url={'/drinkbox'}/>
         <GameDisplay name="Karman Interactive" icon={karman} url={'/karman'}/>
         </div>
       </header>
