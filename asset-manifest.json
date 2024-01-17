@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cf896d1.chunk.css",
-    "main.js": "/static/js/main.be51f66d.chunk.js",
-    "main.js.map": "/static/js/main.be51f66d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2974ac21.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2974ac21.js.map",
+    "main.css": "/static/css/main.d38d5b2d.chunk.css",
+    "main.js": "/static/js/main.4322dfdd.chunk.js",
+    "main.js.map": "/static/js/main.4322dfdd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e6a65686.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e6a65686.js.map",
     "static/js/2.520235a6.chunk.js": "/static/js/2.520235a6.chunk.js",
     "static/js/2.520235a6.chunk.js.map": "/static/js/2.520235a6.chunk.js.map",
-    "static/js/3.9e9c72b7.chunk.js": "/static/js/3.9e9c72b7.chunk.js",
-    "static/js/3.9e9c72b7.chunk.js.map": "/static/js/3.9e9c72b7.chunk.js.map",
+    "static/js/3.9af9642d.chunk.js": "/static/js/3.9af9642d.chunk.js",
+    "static/js/3.9af9642d.chunk.js.map": "/static/js/3.9af9642d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3cf896d1.chunk.css.map": "/static/css/main.3cf896d1.chunk.css.map",
+    "static/css/main.d38d5b2d.chunk.css.map": "/static/css/main.d38d5b2d.chunk.css.map",
     "static/js/2.520235a6.chunk.js.LICENSE.txt": "/static/js/2.520235a6.chunk.js.LICENSE.txt",
     "static/media/AR_Preview.2becbc79.PNG": "/static/media/AR_Preview.2becbc79.PNG",
     "static/media/AdriftAmongTheStars.c17c0d9b.png": "/static/media/AdriftAmongTheStars.c17c0d9b.png",
@@ -120,9 +120,9 @@
     "static/media/test.cc8a8567.gif": "/static/media/test.cc8a8567.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.2974ac21.js",
+    "static/js/runtime-main.e6a65686.js",
     "static/js/2.520235a6.chunk.js",
-    "static/css/main.3cf896d1.chunk.css",
-    "static/js/main.be51f66d.chunk.js"
+    "static/css/main.d38d5b2d.chunk.css",
+    "static/js/main.4322dfdd.chunk.js"
   ]
 }
