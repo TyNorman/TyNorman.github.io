@@ -3,11 +3,17 @@ import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
 import Copyright from '../../components/Copyright';
+import ModalImage from "react-modal-image";
 import '../info.css';
-import testPic from '../../assets/cursedseasons/test.gif';
-import bow from '../../assets/cursedseasons/Bow_Anims.gif';
-import farming from '../../assets/cursedseasons/Farming.gif';
-import boss from '../../assets/cursedseasons/Boss.png';
+
+import preview1 from '../../assets/cursedseasons/preview1.gif';
+import preview2 from '../../assets/cursedseasons/preview2.gif';
+import preview3 from '../../assets/cursedseasons/preview3.gif';
+import preview4 from '../../assets/cursedseasons/preview4.gif';
+import screen1 from '../../assets/cursedseasons/test.gif';
+import screen2 from '../../assets/cursedseasons/Bow_Anims.gif';
+import screen3 from '../../assets/cursedseasons/Dungeon_Boss.gif';
+import screen4 from '../../assets/cursedseasons/Farming.gif';
 
 function CursedIndex() {
   return (
@@ -37,10 +43,18 @@ function CursedIndex() {
           <p>You can see more about Cursed Seasons <a href="https://tynorman.itch.io/cursed-seasons">here</a>.</p>
         </div>
         <footer className="footer">
-          <img className="Screencap" src={testPic} />
-          <img className="Screencap" src={bow} />
-          <img className="Screencap" src={boss} />
-          <img className="Screencap" src={farming} />
+        <div class="preview">
+          <ModalImage small={preview1} large={screen1} />
+          </div>
+        <div class="preview">
+          <ModalImage small={preview2} large={screen2} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview3} large={screen3} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview4} large={screen4} />
+        </div>
         </footer>
       </body>
       </span>

@@ -3,7 +3,13 @@ import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
 import Copyright from '../../components/Copyright';
+import ModalImage from "react-modal-image";
 import '../info.css';
+
+import preview1 from '../../assets/pizzasquid/preview1.png';
+import preview2 from '../../assets/pizzasquid/preview2.png';
+import preview3 from '../../assets/pizzasquid/preview3.png';
+import preview4 from '../../assets/pizzasquid/preview4.gif';
 import screen1 from '../../assets/pizzasquid/Screenshot1.png';
 import screen2 from '../../assets/pizzasquid/Screenshot2.png';
 import screen3 from '../../assets/pizzasquid/Screenshot3.png';
@@ -32,10 +38,18 @@ function PizzaIndex() {
           <p>You can play Pizza Squid <a href="https://tynorman.itch.io/pizza-squid">here</a>.</p>
         </div>
         <footer className="footer">
-          <img className="Screencap" src={screen1} />
-          <img className="Screencap" src={screen2} />
-          <img className="Screencap" src={screen3} />
-          <img className="Screencap" src={screen4} />
+        <div class="preview">
+          <ModalImage small={preview1} large={screen1} />
+          </div>
+        <div class="preview">
+          <ModalImage small={preview2} large={screen2} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview3} large={screen3} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview4} large={screen4} />
+        </div>
         </footer>
       </body>
       </span>

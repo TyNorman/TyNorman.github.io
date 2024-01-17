@@ -3,7 +3,13 @@ import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
 import Copyright from '../../components/Copyright';
+import ModalImage from "react-modal-image";
 import '../info.css';
+
+import preview1 from '../../assets/endlessworlddriver/preview1.png';
+import preview2 from '../../assets/endlessworlddriver/preview2.png';
+import preview3 from '../../assets/endlessworlddriver/preview3.gif';
+import preview4 from '../../assets/endlessworlddriver/preview4.gif';
 import screen1 from '../../assets/endlessworlddriver/Screenshot1.png';
 import screen2 from '../../assets/endlessworlddriver/Screenshot2.png';
 import screen3 from '../../assets/endlessworlddriver/Anim1.gif';
@@ -32,10 +38,18 @@ function EndlessIndex() {
           <p>You can download Endless World Driver <a href="https://tynorman.itch.io/endless-world-driver">here</a>.</p>
         </div>
         <footer className="footer">
-          <img className="Screencap" src={screen1} />
-          <img className="Screencap" src={screen2} />
-          <img className="Screencap" src={screen3} />
-          <img className="Screencap" src={screen4} />
+        <div class="preview">
+          <ModalImage small={preview1} large={screen1} />
+          </div>
+        <div class="preview">
+          <ModalImage small={preview2} large={screen2} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview3} large={screen3} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview4} large={screen4} />
+        </div>
         </footer>
       </body>
       </span>

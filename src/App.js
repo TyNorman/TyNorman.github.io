@@ -9,7 +9,6 @@ import {
 
 import './App.css';
 import Header from './components/Header';
-import profilePic from './assets/aboutme.jpg';
 import Main from './pages/Main';
 import About from './pages/About';
 import AdriftIndex from './pages/adriftamongthestars/index';

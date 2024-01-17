@@ -3,7 +3,13 @@ import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
 import Copyright from '../../components/Copyright';
+import ModalImage from "react-modal-image";
 import '../info.css';
+
+import preview1 from '../../assets/radiant/preview1.png';
+import preview2 from '../../assets/radiant/preview2.png';
+import preview3 from '../../assets/radiant/preview3.png';
+import preview4 from '../../assets/radiant/preview4.png';
 import appspire from '../../assets/radiant/appspire.png';
 import mflview from '../../assets/radiant/myfantasticlife.png';
 import bountymenu from '../../assets/radiant/BountyMenus.gif';
@@ -21,7 +27,7 @@ function RadiantIndex() {
       <body>
       <div className="info">
           <h1>Radiant Digital</h1>
-          <h2>2013-2021</h2>
+          <h2>2013-2024</h2>
           <p>I started working with Radiant Digital in 2013 on various Games for Health projects geared towards children in schools and hospitals.</p>
           <p>
             With Radiant I was the Lead Unity Developer coordinating with Radiant's offshore team to implement several educational activities in a 3D environment and assisting with any troubleshooting as needed while also managing the programming side of the project. I was responsible for integrating 2D UI functionality and ensuring it reflected design documents. I was also responsible for integrating activities and game state management into the dialogue system. I implemented spatial audio adjustment and movement-based UI visuals for ease of access. I also developed a flight camera system to be used by other team members to demonstrate work in progress scenes.
@@ -45,10 +51,18 @@ function RadiantIndex() {
           </p>
         </div>
         <footer className="footer">
-          <img className="Screencap" src={appspire} />
-          <img className="Screencap" src={mflview} />
-          <img className="Screencap" src={bountymenu} />
-          <img className="Screencap" src={bountybattle} />
+        <div class="preview">
+          <ModalImage small={preview1} large={appspire} />
+          </div>
+        <div class="preview">
+          <ModalImage small={preview2} large={mflview} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview3} large={bountybattle} />
+        </div>
+        <div class="preview">
+          <ModalImage small={preview4} large={bountymenu} />
+        </div>
         </footer>
       </body>
       </span>

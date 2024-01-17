@@ -3,7 +3,11 @@ import Header from '../../components/Header';
 import { Helmet } from 'react-helmet';
 import Background from '../../components/Background';
 import Copyright from '../../components/Copyright';
+import ModalImage from "react-modal-image";
 import '../info.css';
+
+import preview1 from '../../assets/karman/preview1.png';
+import preview2 from '../../assets/karman/preview2.png';
 import pch_games from '../../assets/karman/PCH_Lotto.jpg';
 import ar_sticker from '../../assets/karman/AR_Preview.PNG';
 
@@ -38,8 +42,12 @@ function KarmanIndex() {
           </p>
         </div>
         <footer className="footer">
-          <img className="Screencap" src={pch_games} />
-          <img className="Screencap"src={ar_sticker} />
+        <div class="preview">
+          <ModalImage small={preview1} large={ar_sticker} />
+          </div>
+        <div class="preview">
+          <ModalImage small={preview2} large={pch_games} />
+        </div>
         </footer>
       </body>
       </span>
