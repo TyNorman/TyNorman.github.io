@@ -66,7 +66,7 @@ function About() {
             Contact
           </p>
           <div>
-            <a href="https://forms.gle/q28kTyd5hoz6QCsJ6">Email</a>
+            <a href="mailto:tylernorman881@gmail.com">Email</a>
             <a href="https://tynorman.itch.io/">Itch.io</a>
             <a href="https://www.linkedin.com/in/tylernorman/">LinkedIn</a>
           </div>
