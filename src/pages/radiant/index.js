@@ -18,13 +18,12 @@ import bountybattle from '../../assets/radiant/BountyBattle.gif';
 function RadiantIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
-      <span class="overlay">
-      <body>
+      <span className="overlay">
       <div className="info">
           <h1>Radiant Digital</h1>
           <h2>2013-2024</h2>
@@ -51,20 +50,19 @@ function RadiantIndex() {
           </p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={appspire} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={mflview} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={bountybattle} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={bountymenu} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

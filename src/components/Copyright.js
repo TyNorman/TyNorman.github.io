@@ -3,8 +3,8 @@ import "./Copyright.css";
 
 export default function Copyright() {
   return (
-    <div class="Copyright">
-      <p class="text">© 2024 | Tyler Norman</p>
+    <div className="Copyright">
+      <p className="text">© 2024 | Tyler Norman</p>
     </div>
   );
 }

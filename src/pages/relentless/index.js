@@ -18,13 +18,12 @@ import screen4 from '../../assets/relentless/Screenshot4.png';
 function RelentlessIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
-      <span class="overlay">
-      <body>
+      <span className="overlay">
       <div className="info">
           <h1>Relentless</h1>
           <p>Relentless is a project I entered in GameJolt's Indies Vs Gamers jam in 2015.</p>
@@ -38,20 +37,19 @@ function RelentlessIndex() {
           <p>You can play Relentless <a href="https://tynorman.itch.io/relentless">here</a>.</p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={screen1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={screen2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={screen3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={screen4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

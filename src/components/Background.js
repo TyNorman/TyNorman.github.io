@@ -1,6 +1,4 @@
 import React from "react";
-import { View } from 'react-native';
-import BackgroundObject from '../components/BackgroundObject';
 import { Parallax } from 'react-scroll-parallax';
 
 import './Background.css';
@@ -11,15 +9,15 @@ import treesRight from '../assets/Trees_Right.png';
 class Background extends React.Component {
   render() {
     return (
-      <div class="bg-objects">
-        <span class="parallax-left">
+      <div className="bg-objects">
+        <span className="parallax-left">
           <Parallax y={[0, 30]}>
-            <img class="bg-trees-left" src={treesLeft} />
+            <img className="bg-trees-left" src={treesLeft} alt=""/>
           </Parallax>
         </span>
-        <span class="parallax-right">
+        <span className="parallax-right">
           <Parallax y={[0, 30]}>
-            <img class="bg-trees-right" src={treesRight} />
+            <img className="bg-trees-right" src={treesRight} alt=""/>
           </Parallax>
         </span>
       </div>

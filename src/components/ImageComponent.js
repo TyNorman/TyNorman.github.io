@@ -11,15 +11,15 @@ class ImageComponent extends React.Component {
     };
   render() {
     return (
-      <div class="container">
-      <img class="preview" src={this.props.icon} alt="no image" onClick={this.props.onClick}/>
+      <div className="container">
+      <img className="preview" src={this.props.icon} alt="no image" onClick={this.props.onClick}/>
       {this.state.isOpen && (
-          <dialog class="dialog"
+          <dialog className="dialog"
             style={{ position: "absolute" }}
             open
             onClick={this.handleClick}
           >
-            <img class="image" src={this.props.icon} onClick={this.handleClick}/>
+            <img className="image" src={this.props.icon} onClick={this.handleClick}/>
           </dialog>
         )}
 

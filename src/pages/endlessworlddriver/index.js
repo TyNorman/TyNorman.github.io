@@ -18,13 +18,12 @@ import screen4 from '../../assets/endlessworlddriver/Anim2.gif';
 function EndlessIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
-      <span class="overlay">
-      <body>
+      <span className="overlay">
       <div className="info">
           <h1>Endless World Driver</h1>
           <p>Endless World Driver is a looping, animated project I made for Screensaver Jam 2016.</p>
@@ -38,20 +37,19 @@ function EndlessIndex() {
           <p>You can download Endless World Driver <a href="https://tynorman.itch.io/endless-world-driver">here</a>.</p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={screen1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={screen2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={screen3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={screen4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

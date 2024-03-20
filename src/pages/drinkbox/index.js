@@ -20,15 +20,13 @@ function DrinkboxIndex() {
 
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
-      <span class="overlay">
+      <span className="overlay">
 
-
-      <body>
       <div className="info">
           <h1>Drinkbox Studios</h1>
           <h2>September - October 2021</h2>
@@ -43,20 +41,19 @@ function DrinkboxIndex() {
           </p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={nstw1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={nstw2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={nstw3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={nstw4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

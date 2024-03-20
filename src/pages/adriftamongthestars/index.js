@@ -18,13 +18,12 @@ import screen4 from '../../assets/adriftamongthestars/Anim.gif';
 function AdriftIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
     <Helmet>
       <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
     </Helmet>
       <Header/>
-      <span class="overlay">
-      <body>
+      <span className="overlay">
       <div className="info">
           <h1>Adrift Among the Stars</h1>
           <p>Adrift Among the Stars was my first solo game jam project and my first project I put online for 7DFPS and ProcJam 2014.</p>
@@ -38,20 +37,19 @@ function AdriftIndex() {
           <p>You can play Adrift Among the Stars <a href="https://tynorman.itch.io/adrift-among-the-stars">here</a>.</p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={screen1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={screen2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={screen3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={screen4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
       </div>

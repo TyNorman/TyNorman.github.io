@@ -34,6 +34,17 @@
   background-color: rgba(44, 40, 52, 0.8);
 }
 
+.Main p {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
 .App .overlay {
   display: block;
   position: inherit;

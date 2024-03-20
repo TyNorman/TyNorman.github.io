@@ -1,6 +1,5 @@
 import React from "react";
 import {Helmet} from 'react-helmet';
-import { Parallax } from 'react-scroll-parallax';
 import Header from '../components/Header';
 import Background from '../components/Background';
 import Copyright from '../components/Copyright';
@@ -9,8 +8,6 @@ import ModalImage from "react-modal-image";
 import './About.css';
 
 import profilePic from '../assets/aboutme4.png';
-import treesLeft from '../assets/Trees_Left.png';
-import treesRight from '../assets/Trees_Right.png';
 
 import preview1 from '../assets/about/preview1.png';
 import preview2 from '../assets/about/preview2.png';
@@ -25,31 +22,47 @@ import about4 from '../assets/about/aboutme4.jpg';
 function About() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
     <Header/>
     <Helmet>
       <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
     </Helmet>
-    <span class="overlay">
-    <body>
-      <div class="profile-icon">
-          <img src={profilePic} />
+    <span className="overlay">
+      <div className="profile-icon">
+          <img src={profilePic} alt=""/>
       </div>
       <div className="About-contents">
-          <p>
-            Hey! I'm Tyler Norman, a game developer turned web developer who's spent most of his career freelancing in the games and interactive media space for web and mobile.
+          <span>
+            Hey! I'm Tyler Norman, a game developer turned web developer who's spent over a decade freelancing in the games and interactive media space for web and mobile.  Here's a handy list of some tools and languages I've picked up and used across many different projects.
             <br/><br/>
-            My major focus in game development is in C# development through Unity, though I've picked up several different programming languages throughout my career including AngularJS, Actionscript, and Haxe.
-            I also picked up web development in React and website deployment through GitHub Pages to make this site!
+            Dev Environments:
+            <ul>
+              <li>Atom</li>
+              <li>Unity</li>
+              <li>Microsoft Visual Studio</li>
+              <li>GB Studio</li>
+              <li>Godot</li>
+              <li>HaxeDevelop</li>
+              <li>Adobe Flash & Animate</li>
+            </ul>
+            Languages:
+            <ul>
+              <li>Javascript, HTML, CSS</li>
+              <li>C# and C++</li>
+              <li>Haxe</li>
+              <li>React</li>
+              <li>AngularJS</li>
+              <li>Actionscript 2.0 and 3.0</li>
+            </ul>
             <br/><br/>
-            Outside of work, I like to tinker away at hobby projects, mostly based in Unity where I find myself doing game design, programming, writing, pixel art, and animation.
+            Outside of work I've made a couple small games, participated in game jams, and demonstrated my projects at <a href="https://www.dirty-rectangles.com/">Dirty Rectangles</a> in Ottawa. Pre-pandemic, I started a small, casual gathering of other game developers to meet up for coffee throughout the city.
             <br/><br/>
-            Away from the screen, I've taken up horseback riding, indoor bouldering, cooking and baking, and longboarding. Pre-pandemic, I started a small, casual gathering of other game developers to meet up for coffee throughout the city.
+            Away from the screen, I've taken up horseback riding, indoor bouldering, cooking and baking, and longboarding.
             <br/><br/>
             I live in Ottawa, Ontario.
-          </p>
+          </span>
 
-          <p class="contact">
+          <p className="contact">
             Contact
           </p>
           <div>
@@ -59,20 +72,19 @@ function About() {
           </div>
           </div>
           <footer className="footer">
-          <div class="preview">
-            <ModalImage small={preview1} large={about1} />
+          <div className="preview">
+            <ModalImage small={preview1} large={about1} alt=""/>
             </div>
-          <div class="preview">
-            <ModalImage small={preview2} large={about2} />
+          <div className="preview">
+            <ModalImage small={preview2} large={about2} alt=""/>
           </div>
-          <div class="preview">
-            <ModalImage small={preview3} large={about3} />
+          <div className="preview">
+            <ModalImage small={preview3} large={about3} alt=""/>
           </div>
-          <div class="preview">
-            <ModalImage small={preview4} large={about4} />
+          <div className="preview">
+            <ModalImage small={preview4} large={about4} alt=""/>
           </div>
           </footer>
-          </body>
           </span>
 
           <div className="spacer">

@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import {
-  HashRouter as Router,
   Route,
   Switch,
-  Link,
-  Redirect
 } from "react-router-dom";
 
 import './App.css';
-import Header from './components/Header';
 import Main from './pages/Main';
 import About from './pages/About';
 import AdriftIndex from './pages/adriftamongthestars/index';

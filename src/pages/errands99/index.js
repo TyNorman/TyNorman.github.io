@@ -24,7 +24,6 @@ function ErrandsIndex() {
         </Helmet>
       <Header/>
       <span class="overlay">
-      <body>
       <div className="info">
         <h1>Errands '99</h1>
         <p>Errands '99 is a game jam entry developed in GB Studio for TOJam 2020 and a love-letter to my childhood spent frequently playing on my GameBoy Colour.</p>
@@ -38,20 +37,19 @@ function ErrandsIndex() {
         <p>You can play Errands '99' <a href="https://tynorman.itch.io/errands-99">here</a>.</p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={screen1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={screen2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={screen3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={screen4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

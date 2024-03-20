@@ -18,13 +18,12 @@ import screen4 from '../../assets/cursedseasons/Farming.gif';
 function CursedIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
       </Helmet>
       <Header/>
-      <span class="overlay">
-      <body>
+      <span className="overlay">
       <div className="info">
           <h1>Cursed Seasons</h1>
           <p>Cursed Seasons is a hobby project made in Unity that I've worked on since 2014 on the side of contract work and other projects. </p>
@@ -43,20 +42,19 @@ function CursedIndex() {
           <p>You can see more about Cursed Seasons <a href="https://tynorman.itch.io/cursed-seasons">here</a>.</p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={screen1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={screen2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={screen3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={screen4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

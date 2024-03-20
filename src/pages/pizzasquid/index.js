@@ -18,13 +18,12 @@ import screen4 from '../../assets/pizzasquid/Anim.gif';
 function PizzaIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
         </Helmet>
       <Header/>
       <span class="overlay">
-      <body>
       <div className="info">
           <h1>Pizza Squid</h1>
           <p>Pizza Squid is a solo project I developed for Global Game Jam 2015. </p>
@@ -38,20 +37,19 @@ function PizzaIndex() {
           <p>You can play Pizza Squid <a href="https://tynorman.itch.io/pizza-squid">here</a>.</p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={screen1} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={screen2} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview3} large={screen3} />
         </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview4} large={screen4} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

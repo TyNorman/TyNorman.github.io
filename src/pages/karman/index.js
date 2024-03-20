@@ -14,13 +14,12 @@ import ar_sticker from '../../assets/karman/AR_Preview.PNG';
 function KarmanIndex() {
   return (
     <div className="App">
-    <div class="Container">
+    <div className="Container">
       <Helmet>
         <style>{'body { background-color: rgb(22, 32, 36); }'}</style>
         </Helmet>
       <Header/>
-      <span class="overlay">
-      <body>
+      <span className="overlay">
       <div className="info">
           <h1>Karman Interactive</h1>
           <h2>2017</h2>
@@ -42,14 +41,13 @@ function KarmanIndex() {
           </p>
         </div>
         <footer className="footer">
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview1} large={ar_sticker} />
           </div>
-        <div class="preview">
+        <div className="preview">
           <ModalImage small={preview2} large={pch_games} />
         </div>
         </footer>
-      </body>
       </span>
       <Background/>
     </div>

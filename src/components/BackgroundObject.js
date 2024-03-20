@@ -6,7 +6,7 @@ import treesRight from '../assets/Trees_Right.png';
 class BackgroundObject extends React.Component {
   render() {
     return (
-      <div class="Image">
+      <div className="Image">
 
         <img src={treesLeft} />
 
