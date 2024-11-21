@@ -91,7 +91,7 @@ html, body {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 640px)  {
+@media only screen and (max-width: 700px)  {
   .preview  {
     max-width: 125px;
     max-height: 125px;
@@ -100,22 +100,28 @@ html, body {
   }
 
   .info {
-    flex: 1 0 auto;
-    padding: 5px;
-    padding-bottom: 5%;
-  }
-
-  .info body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    padding: 0 5px 5px 5px;
     color: white;
 
     justify-content: center;
     display: flex;
     flex-direction: column;
+  }
+
+  .info h1 {
+    font-size: 18px;
+  }
+
+  .info h2 {
+    font-size: 16px;
+  }
+
+  .info p {
+    font-size: 14px;
+    padding: 0 5px 5px 5px;
   }
 }

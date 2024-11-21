@@ -37,7 +37,7 @@ function CursedIndex() {
           <p>
             I am the sole developer on Cursed Seasons programming in C#, creating and animating pixel art assets, and writing shaders for neat visuals.
           </p>
-          <p>Cursed Seasons is currently in development.</p>
+          <p>Cursed Seasons was put on indefinite hiatus in 2020. One day I might get the urge to return to it and start fresh in Godot.</p>
 
           <p>You can see more about Cursed Seasons <a href="https://tynorman.itch.io/cursed-seasons">here</a>.</p>
         </div>
