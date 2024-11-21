@@ -2,6 +2,10 @@
   color: white;
 }
 
+.info h2 {
+  color: white;
+}
+
 .info body {
   margin-top: 20px;
   margin-left: 20px;
@@ -23,6 +27,7 @@ html, body {
 .info p {
   text-align: justify;
   font-size: 18px;
+  color: white;
 }
 
 /*

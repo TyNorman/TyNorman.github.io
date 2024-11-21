@@ -10,5 +10,15 @@
   text-align: center;
   color: #b9f588;
   font-size: 14px;
+}
 
+@media screen and (max-width: 640px) {
+  .Copyright {
+    display: block;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding-bottom: 20px;
+  }
 }

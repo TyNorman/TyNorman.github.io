@@ -5,7 +5,7 @@ import Background from '../components/Background';
 import GameDisplay from '../components/GameDisplay';
 import Copyright from '../components/Copyright';
 
-import profilePic from '../assets/aboutme2.jpg';
+import profilePic from '../assets/aboutme.png';
 import cursedSeasons from '../assets/Twitter1.jpg';
 import islandpopphoto from '../assets/Itch_Preview8.png';
 import errands99 from '../assets/Errands99.png';

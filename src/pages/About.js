@@ -35,24 +35,29 @@ function About() {
           <span>
             Hey! I'm Tyler Norman, a game developer turned web developer who's spent over a decade freelancing in the games and interactive media space for web and mobile.  Here's a handy list of some tools and languages I've picked up and used across many different projects.
             <br/><br/>
-            Dev Environments:
+            <strong>Languages:</strong>
             <ul>
+              <li>React (what this site was made in!)</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Angular & AngularJS</li>
+              <li>NodeJS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C#</li>
+              <li>C++</li>
+              <li>Haxe</li>
+              <li>Actionscript 3.0 and 2.0</li>
+            </ul>
+            <strong> Dev Environments:</strong>
+            <ul>
+              <li>Visual Studio Code</li>
               <li>Atom</li>
               <li>Unity</li>
-              <li>Microsoft Visual Studio</li>
               <li>GB Studio</li>
               <li>Godot</li>
               <li>HaxeDevelop</li>
               <li>Adobe Flash & Animate</li>
-            </ul>
-            Languages:
-            <ul>
-              <li>Javascript, HTML, CSS</li>
-              <li>C# and C++</li>
-              <li>Haxe</li>
-              <li>React</li>
-              <li>AngularJS</li>
-              <li>Actionscript 2.0 and 3.0</li>
             </ul>
             <br/><br/>
             Outside of work I've made a couple small games, participated in game jams, and demonstrated my projects at <a href="https://www.dirty-rectangles.com/">Dirty Rectangles</a> in Ottawa. Pre-pandemic, I started a small, casual gathering of other game developers to meet up for coffee throughout the city.
