@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import {
   Route,
-  Switch,
-} from "react-router-dom";
+  Routes,
+} from "react-router";
 
 import './App.css';
 import Main from './pages/Main';
@@ -23,22 +23,22 @@ import DrinkboxIndex from './pages/drinkbox/index';
 class App extends Component {
   render() {
     return (
-      <Switch>
-       <Route exact path="/" component={Main} />
-       <Route exact path="/about" component={About} />
-       <Route exact path="/adriftamongthestars" component={AdriftIndex} />
-       <Route exact path="/botcrash" component={BotCrashIndex} />
-       <Route exact path="/cursedseasons" component={CursedIndex} />
-       <Route exact path="/endlessworlddriver" component={EndlessIndex} />
-       <Route exact path="/errands99" component={ErrandsIndex} />
-       <Route exact path="/islandpopphoto" component={IslandIndex} />
-       <Route exact path="/pizzasquid" component={PizzaIndex} />
-       <Route exact path="/relentless" component={RelentlessIndex} />
+      <Routes>
+       <Route exact path="/" element={<Main/>} />
+       <Route exact path="/about" element={<About/>} />
+       <Route exact path="/adriftamongthestars" element={<AdriftIndex/>} />
+       <Route exact path="/botcrash" element={<BotCrashIndex/>} />
+       <Route exact path="/cursedseasons" element={<CursedIndex/>} />
+       <Route exact path="/endlessworlddriver" element={<EndlessIndex/>} />
+       <Route exact path="/errands99" element={<ErrandsIndex/>} />
+       <Route exact path="/islandpopphoto" element={<IslandIndex/>} />
+       <Route exact path="/pizzasquid" element={<PizzaIndex/>} />
+       <Route exact path="/relentless" element={<RelentlessIndex/>} />
 
-       <Route exact path="/radiant" component={RadiantIndex} />
-       <Route exact path="/karman" component={KarmanIndex} />
-       <Route exact path="/drinkbox" component={DrinkboxIndex} />
-      </Switch>
+       <Route exact path="/radiant" element={<RadiantIndex/>} />
+       <Route exact path="/karman" element={<KarmanIndex/>} />
+       <Route exact path="/drinkbox" element={<DrinkboxIndex/>} />
+      </Routes>
     );
   }
 }
