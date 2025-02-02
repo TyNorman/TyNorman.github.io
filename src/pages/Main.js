@@ -35,7 +35,8 @@ function Main() {
 
         <div className="itme">
           <h1 className="name">Tyler Norman</h1>
-          <p className="title">Game Developer</p>
+          <p className="title">Web Developer | Game Developer | Amateur Equestrian</p>
+          <p className="subtitle">Web Developer with over 10 years in Game Development for web and mobile platforms. Strong background in front-end UI and UX with applying perspectives from developing video games. Often picking up web technologies to develop new skills in this career transition.</p>
         </div>
 
         <header className="hobby-Projects">

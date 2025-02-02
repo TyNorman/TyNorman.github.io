@@ -40,7 +40,7 @@ function About() {
               <li>React (what this site was made in!)</li>
               <li>JavaScript</li>
               <li>TypeScript</li>
-              <li>Angular & AngularJS</li>
+              <li>Angular</li>
               <li>NodeJS</li>
               <li>HTML</li>
               <li>CSS</li>
@@ -49,7 +49,7 @@ function About() {
               <li>Haxe</li>
               <li>Actionscript 3.0 and 2.0</li>
             </ul>
-            <strong> Dev Environments:</strong>
+            <strong>Dev Environments:</strong>
             <ul>
               <li>Visual Studio Code</li>
               <li>Atom</li>
@@ -58,6 +58,15 @@ function About() {
               <li>Godot</li>
               <li>HaxeDevelop</li>
               <li>Adobe Flash & Animate</li>
+            </ul>
+            <strong>Development Tools:</strong>
+            <ul>
+              <li>Git</li>
+              <li>SVN</li>
+              <li>Cypress</li>
+              <li>NPM</li>
+              <li>Vite</li>
+              <li>Tailwind CSS</li>
             </ul>
             <br/><br/>
             Outside of work I've made a couple small games, participated in game jams, and demonstrated my projects at <a href="https://www.dirty-rectangles.com/">Dirty Rectangles</a> in Ottawa. Pre-pandemic, I started a small, casual gathering of other game developers to meet up for coffee throughout the city.
