@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0bb5ce3.css",
+    "main.css": "/static/css/main.2429b795.css",
     "main.js": "/static/js/main.6dcd1a00.js",
     "static/js/488.1c9bd551.chunk.js": "/static/js/488.1c9bd551.chunk.js",
     "static/media/BountyBattle.gif": "/static/media/BountyBattle.cbf7fcebff692d5ba326.gif",
@@ -53,12 +53,12 @@
     "static/media/EndlessWorldDriver.png": "/static/media/EndlessWorldDriver.fd2c2f369d1fda2ad106.png",
     "static/media/AdriftAmongTheStars.png": "/static/media/AdriftAmongTheStars.c17c0d9bd3081e1b47ed.png",
     "index.html": "/index.html",
-    "main.e0bb5ce3.css.map": "/static/css/main.e0bb5ce3.css.map",
+    "main.2429b795.css.map": "/static/css/main.2429b795.css.map",
     "main.6dcd1a00.js.map": "/static/js/main.6dcd1a00.js.map",
     "488.1c9bd551.chunk.js.map": "/static/js/488.1c9bd551.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0bb5ce3.css",
+    "static/css/main.2429b795.css",
     "static/js/main.6dcd1a00.js"
   ]
 }
