@@ -1,0 +1,79 @@
+.About-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: 18px;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px)  {
+  .About-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 14px;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0 4px 5px 4px;
+    margin-bottom: 5px;
+  }
+}
+
+.App {
+  background-color:  rgb(22, 32, 36);
+  padding-bottom: 5%;
+}
+
+.contact {
+    font-size: calc(10px + 2vmin);
+}
+
+.About-contents a {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-category {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* unvisited link */
+.About-contents a:link {
+  color: #b9f588;
+  text-decoration: underline;
+}
+
+/* visited link */
+.About-contents a:visited {
+  color: #b9f588;
+  text-decoration: underline;
+ }
+
+
+/* mouse over link */
+.About-contents a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+.About-contents a:active {
+  color: #a669c9;
+  text-decoration: underline;
+}

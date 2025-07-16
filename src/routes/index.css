@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body {
+margin: 0;
+ font-family: 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App {
+  min-height: 100vh;
+  background-color:  rgb(22, 32, 36);
+  text-align: center;
+  background-image: url(../assets/Background_Test1.png);
+  background-position: top;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-contents {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+
+.overlay {
+  background-color: rgba(44, 40, 52, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  position: relative;
+  z-index: 2;
+}
+
+.App .itme {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.App .name {
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.App .title {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.App body {
+  background-color: rgba(44, 40, 52, 0.8);
+}
+
+.profile-icon img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  margin: 20px 20px 20px 20px;
+}
+
+.Main p {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main h1 {
+  color: white;
+}
+
+.subtitle {
+  color: white;
+  font-size: 16px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.App .bg-test {
+  position: absolute;
+  bottom: 2.5%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.hobby-Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-top: 2px dashed #ccc;
+  border-bottom: 2px dashed #ccc;
+}
+
+.work-Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Games-grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.Companies-grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.App .Screencap {
+  margin: 10px;
+}
+
+
+@media screen and (max-width: 640px) {
+  .App .overlay {
+      margin: 0;
+    }
+
+    .App .title {
+      font-size: 16px;
+      color: white;
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0px;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: white;
+      font-size: 12px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+}

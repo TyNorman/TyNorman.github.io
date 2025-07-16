@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.Header {
+  background-color: #2ad178;
+  font-family: 'Oxygen', sans-serif;
+  position: relative;
+  z-index: 5;
+}
+
+.Nav {
+  grid-area: nav;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.header_link {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
