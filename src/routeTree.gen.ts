@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SnessleepRouteImport } from './routes/snessleep'
 import { Route as RelentlessRouteImport } from './routes/relentless'
 import { Route as RadiantRouteImport } from './routes/radiant'
 import { Route as PizzasquidRouteImport } from './routes/pizzasquid'
@@ -23,6 +24,11 @@ import { Route as AdriftamongthestarsRouteImport } from './routes/adriftamongthe
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 
+const SnessleepRoute = SnessleepRouteImport.update({
+  id: '/snessleep',
+  path: '/snessleep',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RelentlessRoute = RelentlessRouteImport.update({
   id: '/relentless',
   path: '/relentless',
@@ -103,6 +109,7 @@ export interface FileRoutesByFullPath {
   '/pizzasquid': typeof PizzasquidRoute
   '/radiant': typeof RadiantRoute
   '/relentless': typeof RelentlessRoute
+  '/snessleep': typeof SnessleepRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -118,6 +125,7 @@ export interface FileRoutesByTo {
   '/pizzasquid': typeof PizzasquidRoute
   '/radiant': typeof RadiantRoute
   '/relentless': typeof RelentlessRoute
+  '/snessleep': typeof SnessleepRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -134,6 +142,7 @@ export interface FileRoutesById {
   '/pizzasquid': typeof PizzasquidRoute
   '/radiant': typeof RadiantRoute
   '/relentless': typeof RelentlessRoute
+  '/snessleep': typeof SnessleepRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -151,6 +160,7 @@ export interface FileRouteTypes {
     | '/pizzasquid'
     | '/radiant'
     | '/relentless'
+    | '/snessleep'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -166,6 +176,7 @@ export interface FileRouteTypes {
     | '/pizzasquid'
     | '/radiant'
     | '/relentless'
+    | '/snessleep'
   id:
     | '__root__'
     | '/'
@@ -181,6 +192,7 @@ export interface FileRouteTypes {
     | '/pizzasquid'
     | '/radiant'
     | '/relentless'
+    | '/snessleep'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -197,10 +209,18 @@ export interface RootRouteChildren {
   PizzasquidRoute: typeof PizzasquidRoute
   RadiantRoute: typeof RadiantRoute
   RelentlessRoute: typeof RelentlessRoute
+  SnessleepRoute: typeof SnessleepRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/snessleep': {
+      id: '/snessleep'
+      path: '/snessleep'
+      fullPath: '/snessleep'
+      preLoaderRoute: typeof SnessleepRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/relentless': {
       id: '/relentless'
       path: '/relentless'
@@ -309,6 +329,7 @@ const rootRouteChildren: RootRouteChildren = {
   PizzasquidRoute: PizzasquidRoute,
   RadiantRoute: RadiantRoute,
   RelentlessRoute: RelentlessRoute,
+  SnessleepRoute: SnessleepRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
