@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tynorman.github.io/",
+  "homepage": "https://tynorman.com/",
   "name": "portfoliosite",
   "version": "1.0.0",
   "private": true,
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
