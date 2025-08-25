@@ -45,12 +45,9 @@
 .skills {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.skills-category {
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* unvisited link */
@@ -76,4 +73,15 @@
 .About-contents a:active {
   color: #a669c9;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+  .skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 }

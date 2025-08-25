@@ -23,3 +23,11 @@
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 640px) {
+  .header_link {
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+}
+}
