@@ -38,6 +38,9 @@
     "test": "vitest",
     "test:coverage": "vitest run --coverage --watch=false"
   },
+  "engines": {
+    "node": "^24.6.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
