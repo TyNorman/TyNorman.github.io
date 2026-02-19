@@ -42,7 +42,7 @@ function About() {
                   <li>JavaScript</li>
                   <li>TypeScript</li>
                   <li>Angular</li>
-                  <li>NodeJS</li>
+                  <li>Node</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>C#</li>
@@ -74,6 +74,7 @@ function About() {
                   <li>Tailwind CSS</li>
                   <li>Redux</li>
                   <li>TanStack Router</li>
+                  <li>Three.js</li>
                 </ul>
               </div>
             </div>

@@ -26,6 +26,12 @@
   color: white;
 }
 
+.video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*
 .footer img {
   width: 325px;

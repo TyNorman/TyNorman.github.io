@@ -48,7 +48,7 @@ function Index() {
             Web Projects
           </p>
           <div className="Games-grid">
-            <GameDisplay name="SNES Sleep" icon={snesSleep} url={'/snessleep'}/>
+            <GameDisplay name="Restles_SNES" icon={snesSleep} url={'/snessleep'}/>
           </div>
         </div>
 
