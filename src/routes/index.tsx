@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { motion } from "motion/react";
 
 import { GameDisplay } from '../components/GameDisplay';
 import { Copyright } from '../components/Copyright';
@@ -34,7 +35,7 @@ function Index() {
       <div className="App-contents">
         <div className="overlay">
         <div className="profile-icon">
-                <img src={profilePic} alt=""/>
+                <img src={profilePic} alt="Profile Picture"/>
         </div>
 
         <div className="itme">
