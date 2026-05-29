@@ -20,6 +20,7 @@ import { Route as EndlessworlddriverRouteImport } from './routes/endlessworlddri
 import { Route as DrinkboxRouteImport } from './routes/drinkbox'
 import { Route as CursedseasonsRouteImport } from './routes/cursedseasons'
 import { Route as BotcrashRouteImport } from './routes/botcrash'
+import { Route as AlchingtodayRouteImport } from './routes/alchingtoday'
 import { Route as AdriftamongthestarsRouteImport } from './routes/adriftamongthestars'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -79,6 +80,11 @@ const BotcrashRoute = BotcrashRouteImport.update({
   path: '/botcrash',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AlchingtodayRoute = AlchingtodayRouteImport.update({
+  id: '/alchingtoday',
+  path: '/alchingtoday',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AdriftamongthestarsRoute = AdriftamongthestarsRouteImport.update({
   id: '/adriftamongthestars',
   path: '/adriftamongthestars',
@@ -99,6 +105,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/adriftamongthestars': typeof AdriftamongthestarsRoute
+  '/alchingtoday': typeof AlchingtodayRoute
   '/botcrash': typeof BotcrashRoute
   '/cursedseasons': typeof CursedseasonsRoute
   '/drinkbox': typeof DrinkboxRoute
@@ -115,6 +122,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/adriftamongthestars': typeof AdriftamongthestarsRoute
+  '/alchingtoday': typeof AlchingtodayRoute
   '/botcrash': typeof BotcrashRoute
   '/cursedseasons': typeof CursedseasonsRoute
   '/drinkbox': typeof DrinkboxRoute
@@ -132,6 +140,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/adriftamongthestars': typeof AdriftamongthestarsRoute
+  '/alchingtoday': typeof AlchingtodayRoute
   '/botcrash': typeof BotcrashRoute
   '/cursedseasons': typeof CursedseasonsRoute
   '/drinkbox': typeof DrinkboxRoute
@@ -150,6 +159,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/adriftamongthestars'
+    | '/alchingtoday'
     | '/botcrash'
     | '/cursedseasons'
     | '/drinkbox'
@@ -166,6 +176,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/adriftamongthestars'
+    | '/alchingtoday'
     | '/botcrash'
     | '/cursedseasons'
     | '/drinkbox'
@@ -182,6 +193,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/adriftamongthestars'
+    | '/alchingtoday'
     | '/botcrash'
     | '/cursedseasons'
     | '/drinkbox'
@@ -199,6 +211,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   AdriftamongthestarsRoute: typeof AdriftamongthestarsRoute
+  AlchingtodayRoute: typeof AlchingtodayRoute
   BotcrashRoute: typeof BotcrashRoute
   CursedseasonsRoute: typeof CursedseasonsRoute
   DrinkboxRoute: typeof DrinkboxRoute
@@ -291,6 +304,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BotcrashRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/alchingtoday': {
+      id: '/alchingtoday'
+      path: '/alchingtoday'
+      fullPath: '/alchingtoday'
+      preLoaderRoute: typeof AlchingtodayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/adriftamongthestars': {
       id: '/adriftamongthestars'
       path: '/adriftamongthestars'
@@ -319,6 +339,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   AdriftamongthestarsRoute: AdriftamongthestarsRoute,
+  AlchingtodayRoute: AlchingtodayRoute,
   BotcrashRoute: BotcrashRoute,
   CursedseasonsRoute: CursedseasonsRoute,
   DrinkboxRoute: DrinkboxRoute,

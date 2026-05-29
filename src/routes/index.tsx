@@ -10,6 +10,7 @@ import './index.css';
 import profilePic from '../assets/aboutme.png';
 
 import snesSleep from '../assets/SNESSleep.png';
+import alchingToday from '../assets/AlchingToday.png';
 
 import cursedSeasons from '../assets/Twitter1.jpg';
 import islandpopphoto from '../assets/Itch_Preview8.png';
@@ -50,6 +51,7 @@ function Index() {
           </p>
           <div className="Games-grid">
             <GameDisplay name="Restles_SNES" icon={snesSleep} url={'/snessleep'}/>
+            <GameDisplay name="Alching Today" icon={alchingToday} url={'/alchingtoday'}/>
           </div>
         </div>
 
